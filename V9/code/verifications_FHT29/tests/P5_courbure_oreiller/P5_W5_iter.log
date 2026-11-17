@@ -1,0 +1,33 @@
+   dimension 262144, bloc 160, mémoire estimée ≈ 3.4 Go
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:38: RuntimeWarning: divide by zero encountered in matmul
+  Q, _ = np.linalg.qr(Y1); AQ = A(Q); G = Q.conj().T @ AQ; G = (G + G.conj().T) / 2
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:38: RuntimeWarning: overflow encountered in matmul
+  Q, _ = np.linalg.qr(Y1); AQ = A(Q); G = Q.conj().T @ AQ; G = (G + G.conj().T) / 2
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:38: RuntimeWarning: invalid value encountered in matmul
+  Q, _ = np.linalg.qr(Y1); AQ = A(Q); G = Q.conj().T @ AQ; G = (G + G.conj().T) / 2
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:39: RuntimeWarning: divide by zero encountered in matmul
+  th, W = np.linalg.eigh(G); X = Q @ W; AX = AQ @ W
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:39: RuntimeWarning: overflow encountered in matmul
+  th, W = np.linalg.eigh(G); X = Q @ W; AX = AQ @ W
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:39: RuntimeWarning: invalid value encountered in matmul
+  th, W = np.linalg.eigh(G); X = Q @ W; AX = AQ @ W
+   itération  1 : convergées 0/120, résidu max 7.8e-02, |E| voulue max 0.4118, borne a -> |E| 0.4710, λmax 39.0, 34 s
+   itération  2 : convergées 0/120, résidu max 2.3e-02, |E| voulue max 0.3247, borne a -> |E| 0.3736, λmax 39.0, 68 s
+   itération  3 : convergées 0/120, résidu max 7.4e-03, |E| voulue max 0.3176, borne a -> |E| 0.3521, λmax 39.0, 101 s
+   itération  4 : convergées 0/120, résidu max 2.2e-03, |E| voulue max 0.3167, borne a -> |E| 0.3453, λmax 39.0, 134 s
+   itération  5 : convergées 0/120, résidu max 6.1e-04, |E| voulue max 0.3165, borne a -> |E| 0.3442, λmax 39.0, 166 s
+   itération  6 : convergées 17/120, résidu max 2.3e-04, |E| voulue max 0.3165, borne a -> |E| 0.3436, λmax 39.0, 199 s
+   itération  7 : convergées 50/120, résidu max 7.8e-05, |E| voulue max 0.3165, borne a -> |E| 0.3431, λmax 39.0, 232 s
+   itération  8 : convergées 70/120, résidu max 2.6e-05, |E| voulue max 0.3165, borne a -> |E| 0.3427, λmax 39.0, 264 s
+   itération  9 : convergées 99/120, résidu max 8.6e-06, |E| voulue max 0.3165, borne a -> |E| 0.3423, λmax 39.0, 297 s
+   itération 10 : convergées 112/120, résidu max 2.8e-06, |E| voulue max 0.3165, borne a -> |E| 0.3421, λmax 39.0, 329 s
+   itération 11 : convergées 112/120, résidu max 9.1e-07, |E| voulue max 0.3165, borne a -> |E| 0.3419, λmax 39.0, 362 s
+   itération 12 : convergées 114/120, résidu max 3.0e-07, |E| voulue max 0.3165, borne a -> |E| 0.3418, λmax 39.0, 394 s
+   itération 13 : convergées 120/120, résidu max 9.8e-08, |E| voulue max 0.3165, borne a -> |E| 0.3418, λmax 39.0, 427 s
+   L = 32 : [(0.10817, 8), (0.16691, 16), (0.19914, 8), (0.21494, 8), (0.22208, 16), (0.26065, 8), (0.26858, 8), (0.27454, 16), (0.27909, 16), (0.28343, 8)]
+   L = 16 : [(0.21673, 8), (0.33426, 16), (0.39983, 8), (0.43189, 8), (0.44588, 16), (0.52623, 8), (0.53622, 8), (0.55055, 16), (0.56072, 16), (0.57014, 8)]
+   ρ L=16 [1.     1.5423 1.8448 1.9928 2.0573 2.428  2.4741 2.5403 2.5872 2.6307]
+   ρ L=32 [1.     1.5431 1.841  1.9871 2.0531 2.4097 2.483  2.5381 2.5801 2.6203]
+   variation [ 0.      0.0005 -0.0021 -0.0028 -0.002  -0.0076  0.0036 -0.0009 -0.0027
+ -0.0039] ; max 0.0076 -> CONTRÔLE PASSÉ
+FIN (427 s)

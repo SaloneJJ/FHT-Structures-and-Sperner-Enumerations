@@ -1,0 +1,9 @@
+|Aut| = 1990656 ; generateurs 24 ; Betti {4: 24, 5: 48, 6: 24} (9 s)
+dimC1 = 6
+1. solutions vers le degre 4 : dimension 4
+1. solutions vers le degre 6 : dimension 2
+2. A' = +-A^-1 verifie l'intertwining inverse (J'^2 = +1 et -1 realisables) : True
+   generateurs purement gauches : 9
+3. ordre zero [rho(g), J' rho(h) J'^-1] = 0 (g, h gauches) : True
+4. U = A2 A1^-1 dans le commutant de rho_pair(Aut) : True ; preserve les degres : True
+(243 s)

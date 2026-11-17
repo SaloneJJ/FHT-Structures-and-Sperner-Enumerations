@@ -1,0 +1,4 @@
+# Tested with Python 3.9 (macOS)
+numpy
+scipy
+# optional, for some automorphism computations: pynauty

@@ -1,0 +1,27 @@
+N = 3 : 8 motifs
+  η_(N−1) = η_N : (chiralité nette sur N, sur N−1..N) -> {(np.float64(-1.0), np.float64(-1.0)): 1, (np.float64(-1.048), np.float64(-0.476)): 1, (np.float64(-1.048), np.float64(-1.238)): 1, (np.float64(-1.012), np.float64(-1.059)): 1} ; nombre de modes nuls -> {2: 1, 4: 3} ; modes intérieurs (1..N−2) -> {0: 1, 1: 2, 2: 1}
+  η_(N−1) ≠ η_N : (chiralité nette sur N, sur N−1..N) -> {(np.float64(-0.447), np.float64(-1.059)): 1, (np.float64(-1.2), np.float64(-1.238)): 1, (np.float64(-1.2), np.float64(-2.0)): 2} ; nombre de modes nuls -> {4: 4} ; modes intérieurs (1..N−2) -> {0: 2, 1: 2}
+    ++++ modes nuls 2 net(N) -1.0 net(N−1..N) -1.0 intérieurs 0
+    +++- modes nuls 4 net(N) -0.447 net(N−1..N) -1.059 intérieurs 0
+    ++-+ modes nuls 4 net(N) -1.2 net(N−1..N) -1.238 intérieurs 0
+    ++-- modes nuls 4 net(N) -1.048 net(N−1..N) -0.476 intérieurs 1
+    +-++ modes nuls 4 net(N) -1.048 net(N−1..N) -1.238 intérieurs 2
+    +-+- modes nuls 4 net(N) -1.2 net(N−1..N) -2.0 intérieurs 1
+    +--+ modes nuls 4 net(N) -1.2 net(N−1..N) -2.0 intérieurs 1
+    +--- modes nuls 4 net(N) -1.012 net(N−1..N) -1.059 intérieurs 1
+N = 6 : 64 motifs
+  η_(N−1) = η_N : (chiralité nette sur N, sur N−1..N) -> {(np.float64(-1.0), np.float64(-1.0)): 1, (np.float64(-1.048), np.float64(-0.488)): 1, (np.float64(-1.048), np.float64(-1.238)): 15, (np.float64(-1.012), np.float64(-1.059)): 8, (np.float64(-1.003), np.float64(-1.015)): 4, (np.float64(-1.001), np.float64(-1.004)): 2, (np.float64(-1.0), np.float64(-1.001)): 1} ; nombre de modes nuls -> {2: 1, 4: 31} ; modes intérieurs (1..N−2) -> {0: 1, 1: 2, 2: 29}
+  η_(N−1) ≠ η_N : (chiralité nette sur N, sur N−1..N) -> {(np.float64(-0.45), np.float64(-1.062)): 1, (np.float64(-1.2), np.float64(-1.25)): 1, (np.float64(-1.2), np.float64(-2.0)): 30} ; nombre de modes nuls -> {4: 32} ; modes intérieurs (1..N−2) -> {0: 2, 1: 30}
+    +++++++ modes nuls 2 net(N) -1.0 net(N−1..N) -1.0 intérieurs 0
+    ++++-+- modes nuls 4 net(N) -1.2 net(N−1..N) -2.0 intérieurs 1
+    +++-+-+ modes nuls 4 net(N) -1.2 net(N−1..N) -2.0 intérieurs 1
+    +++---- modes nuls 4 net(N) -1.003 net(N−1..N) -1.015 intérieurs 2
+    ++-+-++ modes nuls 4 net(N) -1.048 net(N−1..N) -1.238 intérieurs 2
+    ++--++- modes nuls 4 net(N) -1.2 net(N−1..N) -2.0 intérieurs 1
+    ++----+ modes nuls 4 net(N) -1.2 net(N−1..N) -2.0 intérieurs 1
+    +-+++-- modes nuls 4 net(N) -1.048 net(N−1..N) -1.238 intérieurs 2
+    +-+-+++ modes nuls 4 net(N) -1.012 net(N−1..N) -1.059 intérieurs 2
+    +-+--+- modes nuls 4 net(N) -1.2 net(N−1..N) -2.0 intérieurs 1
+    +--++-+ modes nuls 4 net(N) -1.2 net(N−1..N) -2.0 intérieurs 1
+    +--+--- modes nuls 4 net(N) -1.012 net(N−1..N) -1.059 intérieurs 2
+    +----++ modes nuls 4 net(N) -1.048 net(N−1..N) -1.238 intérieurs 2

@@ -1,0 +1,12 @@
+Methode 1 (force brute sur les axiomes) :
+  v = 1 : 1 FHT a isomorphisme pres (attendu 1)  OK
+  v = 2 : 1 FHT a isomorphisme pres (attendu 1)  OK
+  v = 3 : 4 FHT a isomorphisme pres (attendu 4)  OK
+  v = 4 : 23 FHT a isomorphisme pres (attendu 23)  OK
+Methode 2 (decomposition recursive) :
+  v = 1 : 1 FHT etiquetees, 1 a isomorphisme pres (attendu 1)  OK
+  v = 2 : 1 FHT etiquetees, 1 a isomorphisme pres (attendu 1)  OK
+  v = 3 : 8 FHT etiquetees, 4 a isomorphisme pres (attendu 4)  OK
+  v = 4 : 149 FHT etiquetees, 23 a isomorphisme pres (attendu 23)  OK
+  v = 5 : 8488 FHT etiquetees, 231 a isomorphisme pres (attendu 231)  OK
+VERDICT : conforme ; 3.6 s

@@ -1,0 +1,34 @@
+(a) Deux branches (chaine de 160 couches, mu = r = 1) ; attendu : survivant pour eps > 1 - 1/sqrt3 = 0.4226, jumeau pour 1 - sqrt3 < eps < 0.4226
+    eps   | modes nuls cote fin | <F gamma_F> | lambda mesure | lambda predit
+     1.00 | {'fine': (4, -1.0, 0.0), 'racine': (4, -1.0, 0.0)} | attendu <F gamma_F> = -1.0, lambda = 0.0  ok
+     0.90 | {'fine': (4, -1.0, 0.17320508075688776), 'racine': (4, -1.0, 0.17320508075688806)} | attendu <F gamma_F> = -1.0, lambda = 0.1732  ok
+     0.80 | {'fine': (4, -1.0, 0.3464101615137753), 'racine': (4, -1.0, 0.3464101615137749)} | attendu <F gamma_F> = -1.0, lambda = 0.3464  ok
+     0.70 | {'fine': (4, -1.0, 0.5196152422706635), 'racine': (4, -1.0, 0.5196152422706634)} | attendu <F gamma_F> = -1.0, lambda = 0.5196  ok
+     0.60 | {'fine': (4, -1.0, 0.6928203230275509), 'racine': (4, -1.0, 0.6928203230275509)} | attendu <F gamma_F> = -1.0, lambda = 0.6928  ok
+     0.50 | {'fine': (4, -1.0, 0.8660254037844386), 'racine': (4, -1.0, 0.8660254037844386)} | attendu <F gamma_F> = -1.0, lambda = 0.866  ok
+     0.30 | {'fine': (4, 1.0, 0.7875644347017862), 'racine': (4, 1.0, 0.7875644347017862)} | attendu <F gamma_F> = 1.0, lambda = 0.7876  ok
+     0.20 | {'fine': (4, 1.0, 0.6143593539448985), 'racine': (4, 1.0, 0.6143593539448978)} | attendu <F gamma_F> = 1.0, lambda = 0.6144  ok
+     0.10 | {'fine': (4, 1.0, 0.44115427318801026), 'racine': (4, 1.0, 0.44115427318801087)} | attendu <F gamma_F> = 1.0, lambda = 0.4412  ok
+     0.00 | {'fine': (4, 1.0, 0.267949192431123), 'racine': (4, 1.0, 0.267949192431123)} | attendu <F gamma_F> = 1.0, lambda = 0.2679  ok
+    -0.50 | {'fine': (4, 1.0, 0.5980762113533158), 'racine': (4, 1.0, 0.5980762113533156)} | attendu <F gamma_F> = 1.0, lambda = 0.5981  ok
+    (chaque extremite porte 2 modes nuls : un par secteur gamma_F = +-1 ; l'extremite opposee porte la contrepartie)
+(b) Insertion Gamma5 x D_F uniforme, eps = 1 (lambda = 0), eps_D = 0.3 : plus petites |E|
+     [3.76e-08 3.76e-08 3.76e-08 3.76e-08 3.76e-08 3.76e-08 3.76e-08 3.76e-08] -> les 8 modes de bord (2 extremites x 2 secteurs x 2 spins) restent a E = 0 (a l'hybridation de taille finie pres, < 1e-6) : ok
+     controle mu = 0, m_tot = -1 : [0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3] -> masse eps_D = 0.3 (les deux copies ont alors le meme gout dans les deux secteurs)
+(c) Insertion O_0 x D_F : sur TOUTES les couches (modele de la Proposition « Insertion O_phi ») et sur la seule couche fine (h = 0)
+     au cone, O_0 x sigma_x anticommute avec tous les termes de H_0 : H^2 = H_0^2 + eps_D^2 exactement pour l'insertion uniforme
+     |{H_0, O_0 x sigma_x}| = 2.0e-17
+     eps = 1.0, lambda = 0.0000 : uniforme m/eps_D = 1.000000 (attendu 1) ; couche fine seule m/eps_D = 1.000000 (attendu 1 - lambda^2 = 1.000000)
+     eps = 0.9, lambda = 0.1732 : uniforme m/eps_D = 1.000000 (attendu 1) ; couche fine seule m/eps_D = 0.970000 (attendu 1 - lambda^2 = 0.970000)
+     eps = 0.8, lambda = 0.3464 : uniforme m/eps_D = 1.000000 (attendu 1) ; couche fine seule m/eps_D = 0.880000 (attendu 1 - lambda^2 = 0.880000)
+     eps = 0.6, lambda = 0.6928 : uniforme m/eps_D = 1.000000 (attendu 1) ; couche fine seule m/eps_D = 0.520000 (attendu 1 - lambda^2 = 0.520000)
+     eps = 0.2, lambda = 0.6144 : uniforme m/eps_D = 1.000000 (attendu 1) ; couche fine seule m/eps_D = 0.622562 (attendu 1 - lambda^2 = 0.622563)
+     => « m = eps_D (1 - lambda^2) » (new_sec9, Prop. Insertion (iii)) vaut pour l'insertion sur la couche fine seule ; pour l'insertion uniforme m = eps_D.
+(d) Pont : insertion sur la seule couche h ; m(h) / [eps_D (1 - lambda^2) lambda^(2h)]
+     eps = 0.9 (lambda = 0.1732) : h = 0..5 -> [1.     1.     1.     1.     1.     0.9999]  ok
+     eps = 0.8 (lambda = 0.3464) : h = 0..5 -> [1. 1. 1. 1. 1. 1.]  ok
+     eps = 0.7 (lambda = 0.5196) : h = 0..5 -> [1. 1. 1. 1. 1. 1.]  ok
+     eps = 0.6 (lambda = 0.6928) : h = 0..5 -> [1.     1.     1.     1.     1.0001 1.0003]  ok
+     eps = 0.2 (lambda = 0.6144) : h = 0..5 -> [1. 1. 1. 1. 1. 1.]  ok
+     eps = 0.1 (lambda = 0.4412) : h = 0..5 -> [1. 1. 1. 1. 1. 1.]  ok
+VERDICT : conforme

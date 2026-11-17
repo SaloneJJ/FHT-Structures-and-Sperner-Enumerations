@@ -1,0 +1,297 @@
+=== descente depuis V32 (14/11 14:20)
+[V32 pas 0] facettes 490 ; E' = (1, 26, (2, 2, '2 (2.0000)'), (3, 4, '515/129 (3.9922)'), 31059, 490) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   256 classes de mouvements d'orbite (17 s)
+   DESCEND (e_C (IG))                                                     12
+   DESCEND (e_C (LG))                                                     2
+   agrand non elementaire                                                 18
+   monte (e_C (IG))                                                       57
+   monte (e_S (volume))                                                   70
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          97
+   duree 39 s
+   VERDICT Q1 [V32 pas 0] : PAS UN PUITS (14 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '418/245 (1.7061)'), (3, 4, '479/129 (3.7132)'), 44639, 490))
+[V32 pas 1] facettes 490 ; E' = (1, 26, (1, 2, '418/245 (1.7061)'), (3, 4, '479/129 (3.7132)'), 44639, 490) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   256 classes de mouvements d'orbite (18 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     3
+   agrand non elementaire                                                 18
+   monte (e_C (LG))                                                       60
+   monte (e_S (volume))                                                   70
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      2
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          95
+   duree 47 s
+   VERDICT Q1 [V32 pas 1] : PAS UN PUITS (11 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '562/389 (1.4447)'), (3, 4, '695/201 (3.4577)'), 125939, 778))
+[V32 pas 2] facettes 778 ; E' = (1, 26, (1, 2, '562/389 (1.4447)'), (3, 4, '695/201 (3.4577)'), 125939, 778) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   258 classes de mouvements d'orbite (18 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     3
+   DESCEND (e_S (volume))                                                 2
+   agrand non elementaire                                                 19
+   monte (e_C (LG))                                                       60
+   monte (e_S (volume))                                                   72
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      5
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          89
+   duree 127 s
+   VERDICT Q1 [V32 pas 2] : PAS UN PUITS (13 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '514/389 (1.3213)'), (3, 4, '671/201 (3.3383)'), 128339, 778))
+[V32 pas 3] facettes 778 ; E' = (1, 26, (1, 2, '514/389 (1.3213)'), (3, 4, '671/201 (3.3383)'), 128339, 778) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   258 classes de mouvements d'orbite (18 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     3
+   DESCEND (e_S (volume))                                                 1
+   agrand non elementaire                                                 19
+   monte (e_C (LG))                                                       61
+   monte (e_S (volume))                                                   72
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          90
+   duree 124 s
+   VERDICT Q1 [V32 pas 3] : PAS UN PUITS (12 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '122/97 (1.2577)'), (3, 4, '815/249 (3.2731)'), 142559, 970))
+[V32 pas 4] facettes 970 ; E' = (1, 26, (1, 2, '122/97 (1.2577)'), (3, 4, '815/249 (3.2731)'), 142559, 970) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   260 classes de mouvements d'orbite (18 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     1
+   DESCEND (e_S (volume))                                                 1
+   agrand non elementaire                                                 19
+   monte (e_C (LG))                                                       63
+   monte (e_S (volume))                                                   74
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          90
+   duree 139 s
+   VERDICT Q1 [V32 pas 4] : PAS UN PUITS (10 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '682/557 (1.2244)'), (3, 4, '923/285 (3.2386)'), 165311, 1114))
+[V32 pas 5] facettes 1114 ; E' = (1, 26, (1, 2, '682/557 (1.2244)'), (3, 4, '923/285 (3.2386)'), 165311, 1114) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   260 classes de mouvements d'orbite (19 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_S (volume))                                                 2
+   agrand non elementaire                                                 21
+   monte (e_C (LG))                                                       63
+   monte (e_S (volume))                                                   74
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          88
+   duree 181 s
+   VERDICT Q1 [V32 pas 5] : PAS UN PUITS (10 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '682/557 (1.2244)'), (3, 4, '3691/1140 (3.2377)'), 165791, 1114))
+[V32 pas 6] facettes 1114 ; E' = (1, 26, (1, 2, '682/557 (1.2244)'), (3, 4, '3691/1140 (3.2377)'), 165791, 1114) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   260 classes de mouvements d'orbite (19 s)
+   DESCEND (e_C (IG))                                                     5
+   DESCEND (e_C (LG))                                                     2
+   DESCEND (e_S (volume))                                                 2
+   agrand non elementaire                                                 21
+   monte (e_C (IG))                                                       3
+   monte (e_C (LG))                                                       62
+   monte (e_S (volume))                                                   76
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          85
+   duree 172 s
+   VERDICT Q1 [V32 pas 6] : PAS UN PUITS (9 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '694/575 (1.2070)'), (3, 4, '1261/392 (3.2168)'), 169631, 1150))
+[V32 pas 7] facettes 1150 ; E' = (1, 26, (1, 2, '694/575 (1.2070)'), (3, 4, '1261/392 (3.2168)'), 169631, 1150) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   262 classes de mouvements d'orbite (19 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     2
+   DESCEND (e_S (volume))                                                 2
+   agrand non elementaire                                                 21
+   monte (e_C (IG))                                                       2
+   monte (e_C (LG))                                                       66
+   monte (e_S (volume))                                                   75
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          82
+   duree 200 s
+   VERDICT Q1 [V32 pas 7] : PAS UN PUITS (12 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '106/89 (1.1910)'), (3, 4, '339/106 (3.1981)'), 184031, 1246))
+[V32 pas 8] facettes 1246 ; E' = (1, 26, (1, 2, '106/89 (1.1910)'), (3, 4, '339/106 (3.1981)'), 184031, 1246) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   263 classes de mouvements d'orbite (20 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     1
+   DESCEND (e_S (volume))                                                 2
+   agrand non elementaire                                                 21
+   monte (e_C (IG))                                                       2
+   monte (e_C (LG))                                                       67
+   monte (e_S (volume))                                                   76
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          82
+   duree 199 s
+   VERDICT Q1 [V32 pas 8] : PAS UN PUITS (11 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '778/659 (1.1806)'), (3, 4, '51/16 (3.1875)'), 207071, 1318))
+[V32 pas 9] facettes 1318 ; E' = (1, 26, (1, 2, '778/659 (1.1806)'), (3, 4, '51/16 (3.1875)'), 207071, 1318) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   263 classes de mouvements d'orbite (19 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_S (volume))                                                 2
+   agrand non elementaire                                                 23
+   monte (e_C (IG))                                                       2
+   monte (e_C (LG))                                                       67
+   monte (e_S (volume))                                                   76
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          81
+   duree 215 s
+   VERDICT Q1 [V32 pas 9] : PAS UN PUITS (10 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '778/659 (1.1806)'), (3, 4, '4283/1344 (3.1868)'), 208127, 1318))
+[V32 pas 10] facettes 1318 ; E' = (1, 26, (1, 2, '778/659 (1.1806)'), (3, 4, '4283/1344 (3.1868)'), 208127, 1318) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   263 classes de mouvements d'orbite (19 s)
+   DESCEND (e_C (IG))                                                     5
+   DESCEND (e_C (LG))                                                     2
+   DESCEND (e_S (volume))                                                 2
+   agrand non elementaire                                                 23
+   monte (e_C (IG))                                                       5
+   monte (e_C (LG))                                                       65
+   monte (e_S (volume))                                                   78
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          79
+   duree 229 s
+   VERDICT Q1 [V32 pas 10] : PAS UN PUITS (9 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '398/343 (1.1603)'), (3, 4, '4423/1398 (3.1638)'), 216575, 1372))
+[V32 pas 11] facettes 1372 ; E' = (1, 26, (1, 2, '398/343 (1.1603)'), (3, 4, '4423/1398 (3.1638)'), 216575, 1372) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   265 classes de mouvements d'orbite (22 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     1
+   DESCEND (e_S (volume))                                                 2
+   agrand non elementaire                                                 23
+   monte (e_C (IG))                                                       4
+   monte (e_C (LG))                                                       69
+   monte (e_S (volume))                                                   77
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          77
+   duree 295 s
+   VERDICT Q1 [V32 pas 11] : PAS UN PUITS (11 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '434/379 (1.1451)'), (3, 4, '2426/771 (3.1466)'), 248255, 1516))
+[V32 pas 12] facettes 1516 ; E' = (1, 26, (1, 2, '434/379 (1.1451)'), (3, 4, '2426/771 (3.1466)'), 248255, 1516) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   266 classes de mouvements d'orbite (26 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_S (volume))                                                 2
+   agrand non elementaire                                                 23
+   monte (e_C (IG))                                                       4
+   monte (e_C (LG))                                                       70
+   monte (e_S (volume))                                                   78
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          77
+   duree 381 s
+   VERDICT Q1 [V32 pas 12] : PAS UN PUITS (10 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '434/379 (1.1451)'), (3, 4, '1617/514 (3.1459)'), 249455, 1516))
+[V32 pas 13] facettes 1516 ; E' = (1, 26, (1, 2, '434/379 (1.1451)'), (3, 4, '1617/514 (3.1459)'), 249455, 1516) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   266 classes de mouvements d'orbite (26 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     1
+   DESCEND (e_S (volume))                                                 4
+   agrand non elementaire                                                 22
+   monte (e_C (IG))                                                       8
+   monte (e_C (LG))                                                       66
+   monte (e_S (volume))                                                   76
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          77
+   duree 387 s
+   VERDICT Q1 [V32 pas 13] : PAS UN PUITS (13 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '422/379 (1.1135)'), (3, 4, '1601/514 (3.1148)'), 251615, 1516))
+[V32 pas 14] facettes 1516 ; E' = (1, 26, (1, 2, '422/379 (1.1135)'), (3, 4, '1601/514 (3.1148)'), 251615, 1516) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   266 classes de mouvements d'orbite (24 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     3
+   DESCEND (e_S (volume))                                                 4
+   agrand non elementaire                                                 22
+   monte (e_C (IG))                                                       7
+   monte (e_C (LG))                                                       70
+   monte (e_S (volume))                                                   76
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          72
+   duree 374 s
+   VERDICT Q1 [V32 pas 14] : PAS UN PUITS (15 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '458/415 (1.1036)'), (3, 4, '1745/562 (3.1050)'), 268895, 1660))
+[V32 pas 15] facettes 1660 ; E' = (1, 26, (1, 2, '458/415 (1.1036)'), (3, 4, '1745/562 (3.1050)'), 268895, 1660) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   268 classes de mouvements d'orbite (24 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     2
+   DESCEND (e_S (volume))                                                 4
+   agrand non elementaire                                                 22
+   monte (e_C (IG))                                                       8
+   monte (e_C (LG))                                                       68
+   monte (e_S (volume))                                                   77
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          75
+   duree 419 s
+   VERDICT Q1 [V32 pas 15] : PAS UN PUITS (14 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '554/511 (1.0841)'), (3, 4, '2129/690 (3.0855)'), 333695, 2044))
+[V32 pas 16] facettes 2044 ; E' = (1, 26, (1, 2, '554/511 (1.0841)'), (3, 4, '2129/690 (3.0855)'), 333695, 2044) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   270 classes de mouvements d'orbite (26 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     1
+   DESCEND (e_S (volume))                                                 4
+   agrand non elementaire                                                 22
+   monte (e_C (IG))                                                       6
+   monte (e_C (LG))                                                       70
+   monte (e_S (volume))                                                   79
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          76
+   duree 531 s
+   VERDICT Q1 [V32 pas 16] : PAS UN PUITS (13 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '626/583 (1.0738)'), (3, 4, '2417/786 (3.0751)'), 437375, 2332))
+[V32 pas 17] facettes 2332 ; E' = (1, 26, (1, 2, '626/583 (1.0738)'), (3, 4, '2417/786 (3.0751)'), 437375, 2332) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   270 classes de mouvements d'orbite (28 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_S (volume))                                                 4
+   agrand non elementaire                                                 23
+   monte (e_C (IG))                                                       6
+   monte (e_C (LG))                                                       72
+   monte (e_S (volume))                                                   78
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          75
+   duree 756 s
+   VERDICT Q1 [V32 pas 17] : PAS UN PUITS (12 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '626/583 (1.0738)'), (3, 4, '3625/1179 (3.0746)'), 440015, 2332))
+[V32 pas 18] facettes 2332 ; E' = (1, 26, (1, 2, '626/583 (1.0738)'), (3, 4, '3625/1179 (3.0746)'), 440015, 2332) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   270 classes de mouvements d'orbite (26 s)
+   DESCEND (e_C (IG))                                                     6
+   DESCEND (e_S (volume))                                                 6
+   agrand non elementaire                                                 23
+   monte (e_C (IG))                                                       9
+   monte (e_C (LG))                                                       70
+   monte (e_S (volume))                                                   77
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          75
+   duree 694 s
+   VERDICT Q1 [V32 pas 18] : PAS UN PUITS (12 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '626/583 (1.0738)'), (3, 4, '7249/2358 (3.0742)'), 445295, 2332))
+[V32 pas 19] facettes 2332 ; E' = (1, 26, (1, 2, '626/583 (1.0738)'), (3, 4, '7249/2358 (3.0742)'), 445295, 2332) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   270 classes de mouvements d'orbite (29 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     1
+   DESCEND (e_S (volume))                                                 6
+   agrand non elementaire                                                 23
+   monte (e_C (IG))                                                       10
+   monte (e_C (LG))                                                       69
+   monte (e_S (volume))                                                   66
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          83
+   duree 801 s
+   VERDICT Q1 [V32 pas 19] : PAS UN PUITS (15 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '644/619 (1.0404)'), (3, 4, '7609/2502 (3.0412)'), 475391, 2476))
+[V32 pas 20] facettes 2476 ; E' = (1, 26, (1, 2, '644/619 (1.0404)'), (3, 4, '7609/2502 (3.0412)'), 475391, 2476) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   272 classes de mouvements d'orbite (26 s)
+   DESCEND (e_C (IG))                                                     8
+   DESCEND (e_C (LG))                                                     1
+   DESCEND (e_S (volume))                                                 6
+   agrand non elementaire                                                 23
+   monte (e_C (IG))                                                       8
+   monte (e_C (LG))                                                       74
+   monte (e_S (volume))                                                   68
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          80
+   duree 855 s
+   VERDICT Q1 [V32 pas 20] : PAS UN PUITS (15 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '806/781 (1.0320)'), (3, 4, '9553/3150 (3.0327)'), 635903, 3124))
+[V32 pas 21] facettes 3124 ; E' = (1, 26, (1, 2, '806/781 (1.0320)'), (3, 4, '9553/3150 (3.0327)'), 635903, 3124) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   274 classes de mouvements d'orbite (30 s)
+   DESCEND (e_C (IG))                                                     11
+   DESCEND (e_S (volume))                                                 5
+   agrand non elementaire                                                 23
+   monte (e_C (IG))                                                       10
+   monte (e_C (LG))                                                       74
+   monte (e_S (volume))                                                   69
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          78
+   duree 1319 s
+   VERDICT Q1 [V32 pas 21] : PAS UN PUITS (16 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '806/781 (1.0320)'), (3, 4, '191/63 (3.0317)'), 678143, 3124))
+[V32 pas 22] facettes 3124 ; E' = (1, 26, (1, 2, '806/781 (1.0320)'), (3, 4, '191/63 (3.0317)'), 678143, 3124) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   274 classes de mouvements d'orbite (26 s)
+   DESCEND (e_S (volume))                                                 5
+   agrand non elementaire                                                 23
+   monte (e_C (IG))                                                       11
+   monte (e_C (LG))                                                       74
+   monte (e_S (volume))                                                   86
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      4
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          71
+   duree 912 s
+   VERDICT Q1 [V32 pas 22] : PAS UN PUITS (5 mouvements descendants ; meilleur : reduc, E' = (1, 26, (1, 2, '806/781 (1.0320)'), (3, 4, '191/63 (3.0317)'), 657023, 3124))
+[V32 pas 23] facettes 3124 ; E' = (1, 26, (1, 2, '806/781 (1.0320)'), (3, 4, '191/63 (3.0317)'), 657023, 3124) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   274 classes de mouvements d'orbite (27 s)
+   DESCEND (e_C (LG))                                                     1
+   DESCEND (e_S (volume))                                                 4
+   agrand non elementaire                                                 22
+   monte (e_C (IG))                                                       11
+   monte (e_C (LG))                                                       74
+   monte (e_S (volume))                                                   87
+   ne monte pas mais sort de la classe (Aut 82944) => e_T > 0, monte      5
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          70
+   duree 915 s
+   VERDICT Q1 [V32 pas 23] : PAS UN PUITS (5 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '914/889 (1.0281)'), (3, 4, '5423/1791 (3.0279)'), 715103, 3556))
+[V32 pas 24] facettes 3556 ; E' = (1, 26, (1, 2, '914/889 (1.0281)'), (3, 4, '5423/1791 (3.0279)'), 715103, 3556) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   275 classes de mouvements d'orbite (29 s)

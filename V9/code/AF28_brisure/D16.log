@@ -1,0 +1,7 @@
+C0 : sommets 27, Betti {1: 6}, |Aut| = 24 ; homologie sous S4 diagonal : [((1, '1'), np.int64(1)), ((1, 'E'), np.int64(2)), ((1, 'sgn'), np.int64(1))]
+A' : sommets 27, Betti {0: 1, 1: 2, 2: 1}, |Aut| = 24, homologie sous S4 diagonal [((0, '1'), np.int64(1)), ((1, 'E'), np.int64(1)), ((2, 'sgn'), np.int64(1))]
+controle A0 (K26) : homologie sous S4 (sur les x) : Betti {0: 1, 1: 2, 2: 1}
+X_comp : sommets 68, facettes 4796, Betti {3: 12, 4: 36, 5: 36, 6: 12}, |Aut| = 13824 (prevu 13824) (11 s)
+K26 (reference) : {'v': 34, 'aut': 13824, 'betti': {3: 12, 4: 36, 5: 36, 6: 12}, 'P1': True, 'P2': True, 'P3': True, 'P4': True, 'dimC1': 6, 'C1': True, 'C1_shift': True} (137 s)
+X_comp : {'v': 68, 'aut': 13824, 'betti': {3: 12, 4: 36, 5: 36, 6: 12}, 'P1': True, 'P2': True, 'P3': True, 'P4': True, 'dimC1': 6, 'C1': True, 'C1_shift': True, 'C2': True, 'C2_labels': (25, 25), 'C2_incoherent': False} (92 s)
+verdict AF9 : PORTEUR DU TRIPLET DE K26

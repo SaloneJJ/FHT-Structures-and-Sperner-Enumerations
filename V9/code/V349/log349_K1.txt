@@ -1,0 +1,15 @@
+F = -G4 S True
+F = +G4 S False
+[F,S]=0 True  [G4,S]=0 True  F* = -F True
+element            det garde_T+  G5 G4 FG S F
+inversion          -1  False    + - + - +
+C4 (z)             +1  False    + + - - -
+sigma_d (x<->y)    -1  True     + - - + -
+S4 (z)             -1  True     + - - + -
+C3 (xyz)           +1  True     + + + + +
+C2 (z)             +1  True     + + + + +
+O_h complet (det, garde les tétraèdres, G4, FG, S) : nombre
+   (-1, False, '-', '+', '-') 12
+   (-1, True, '-', '-', '+') 12
+   (1, False, '+', '-', '-') 12
+   (1, True, '+', '+', '+') 12

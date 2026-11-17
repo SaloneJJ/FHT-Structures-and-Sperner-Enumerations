@@ -1,0 +1,23 @@
+== (a) algebre de saveur au point K
+   dim_C du commutant de {G5, alpha_d} : 4 (attendu 4)
+   {1, iG4A, iG4B, AB} : carres des trois unites = -1 : [True, True, True] | anticommutent : True | commutent a G5, alpha_d, G4 : True
+== (b) structure reelle de l'octet : kappa (fonctions reelles sur les huit sites)
+   H(k) reel en position (conj H(-k) = H(k)) : True | les quatre quaternions sont des matrices reelles : [True, True, True, True]
+   donc H_saveur = {1, iG4A, iG4B, AB} est la forme reelle fixee par kappa ; F = iAB est imaginaire pur : True
+== (c) chiralite et algebre gauche-droite native
+   gamma = i Y1Y2Y3 : carre 1 : True | commute aux alpha_d : True | anticommute a G5 et G4 : True | commute a H_saveur : True | i G4 G5 = -gamma : True
+   dim_R de P_L H + P_R H : 8 (H + H = 8) ; dim_R de P_L H + P_R {1, AB} : 6 (H + C = 6)
+   sur P_R : (P_R AB)^2 = -P_R : True ; F = iAB y vaut +1 et -1 avec les multiplicites [2, 2]
+== (d) le terme (m + mu F) G5 est-il une masse haut/bas ?
+   t_f=t_c, k=K, m=0.3, mu=0.0 : |E| = [0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3] -> m+mu et |m-mu|, quatre fois chacun
+   t_f=t_c, k=K, m=0.3, mu=0.1 : |E| = [0.2 0.2 0.2 0.2 0.4 0.4 0.4 0.4] -> m+mu et |m-mu|, quatre fois chacun
+   t_f=t_c, k=K, m=0.0, mu=0.2 : |E| = [0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2] -> m+mu et |m-mu|, quatre fois chacun
+== (e) conservation loin du cone (t_f = t_c) : ordre q^2 attendu
+   |q|~0.00 : ||[H,F]|| = 3.00e-33 ; ||[H, P_L iG4A]|| = 1.23e-32 ; ||[H, P_R AB]|| = 3.00e-33
+   |q|~0.05 : ||[H,F]|| = 1.21e-03 ; ||[H, P_L iG4A]|| = 1.10e-03 ; ||[H, P_R AB]|| = 1.19e-03
+   |q|~0.10 : ||[H,F]|| = 4.85e-03 ; ||[H, P_L iG4A]|| = 4.41e-03 ; ||[H, P_R AB]|| = 4.76e-03
+   |q|~0.20 : ||[H,F]|| = 1.93e-02 ; ||[H, P_L iG4A]|| = 1.76e-02 ; ||[H, P_R AB]|| = 1.90e-02
+   |q|~0.40 : ||[H,F]|| = 7.64e-02 ; ||[H, P_L iG4A]|| = 6.97e-02 ; ||[H, P_R AB]|| = 7.54e-02
+== (f) comptage (arithmetique)
+   lecture actuelle de A3 : 96 etats de F x 2 (E) = 192 branches -> Majorana 96 -> masse de saveur 48
+   lecture testee : (2 chiralites) x (1+3 lepton-couleur) x (3 generations) = 24 secteurs x 2 (E = isospin) = 48 fermions de Weyl, sans masse de saveur

@@ -1,0 +1,40 @@
+AF25 -- examen des deux racines de A3 sur S^3 (tesseracte / oreiller). Criteres et predictions : 02_theoreme_holonomies/EXAMEN_RACINES.md §2
+(1) tesseracte : 384 paires (l, r) de 2O x 2O, 192 rotations ; = toutes les permutations signees de det +1 (192) : True ; condition l r^-1 dans Q8 : True
+    oreiller : 48 rotations ; forme (l, +-l) : True
+    translation a gauche par i : symetrie du tesseracte True ; de l'oreiller False
+    2O/Q8 : ordre 6 ; classes l mod Q8 = 6
+
+== S^3/Q8 (quarts de tour), un cube subdivise 3^3 : 30 sommets, 84 aretes, 81 faces, 27 cubes
+   degres des aretes : {3: 12, 4: 72}
+   Betti mod 2 : (1, 2, 2, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 27 ; |Omega| (aretes impaires) = 12 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : False (controle par propagation des signes : False)
+
+== S^3/Q8 (quarts de tour), un cube subdivise 5^3 : 130 sommets, 380 aretes, 375 faces, 125 cubes
+   degres des aretes : {3: 20, 4: 360}
+   Betti mod 2 : (1, 2, 2, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 75 ; |Omega| (aretes impaires) = 20 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : False (controle par propagation des signes : False)
+
+== RP^3 (demi-tours), un cube subdivise 3^3 : 36 sommets, 90 aretes, 81 faces, 27 cubes
+   degres des aretes : {2: 18, 4: 72}
+   Betti mod 2 : (1, 1, 1, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 0 ; |Omega| (aretes impaires) = 0 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : True (controle par propagation des signes : True)
+   Omega = 0 : obstruction residuelle = [W0] dans H2(M ; Z/2) ; [W0] = 0 : True
+
+== RP^3 (demi-tours), un cube subdivise 5^3 : 140 sommets, 390 aretes, 375 faces, 125 cubes
+   degres des aretes : {2: 30, 4: 360}
+   Betti mod 2 : (1, 1, 1, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 0 ; |Omega| (aretes impaires) = 0 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : True (controle par propagation des signes : True)
+   Omega = 0 : obstruction residuelle = [W0] dans H2(M ; Z/2) ; [W0] = 0 : True
+
+(3) tesseracte niveau 2 (512 cubes) : multiplicites exactes (taille, lambda/lambda_1) : [(4, np.float64(1.0)), (6, np.float64(2.3411)), (3, np.float64(3.2418)), (4, np.float64(3.8144)), (4, np.float64(5.0161)), (8, np.float64(5.1564)), (1, np.float64(5.3609)), (1, np.float64(6.1011)), (6, np.float64(6.9274)), (2, np.float64(6.9607))]
+    paquets a 5 % (taille, moyenne/lambda_1) : [(4, np.float64(1.0)), (6, np.float64(2.341)), (3, np.float64(3.242)), (4, np.float64(3.814)), (12, np.float64(5.11)), (1, np.float64(5.361))]   [S^3 : (4, 1), (9, 2,667), (16, 5)]
+(3) tesseracte niveau 3 (4096 cubes) : multiplicites exactes (taille, lambda/lambda_1) : [(4, np.float64(1.0)), (6, np.float64(2.3818)), (3, np.float64(3.3266)), (4, np.float64(3.9089)), (4, np.float64(5.3849)), (8, np.float64(5.4339)), (1, np.float64(5.515)), (1, np.float64(7.0735)), (6, np.float64(7.4043)), (2, np.float64(7.4138))]
+    paquets a 5 % (taille, moyenne/lambda_1) : [(4, np.float64(1.0)), (6, np.float64(2.382)), (3, np.float64(3.327)), (4, np.float64(3.909)), (13, np.float64(5.425)), (9, np.float64(7.37))]   [S^3 : (4, 1), (9, 2,667), (16, 5)]
+(3) oreiller niveau 3 (1024 cubes) : multiplicites exactes (taille, lambda/lambda_1) : [(3, np.float64(1.0)), (3, np.float64(2.0)), (2, np.float64(3.0)), (3, np.float64(3.8478)), (6, np.float64(4.8478)), (6, np.float64(5.8478)), (3, np.float64(7.6955)), (3, np.float64(8.1097)), (6, np.float64(8.6955)), (4, np.float64(9.1097))]
+    paquets a 5 % (taille, moyenne/lambda_1) : [(3, np.float64(1.0)), (3, np.float64(2.0)), (2, np.float64(3.0)), (3, np.float64(3.848)), (6, np.float64(4.848)), (6, np.float64(5.848))]   [S^3 : (4, 1), (9, 2,667), (16, 5)]
+(3) oreiller niveau 4 (8192 cubes) : multiplicites exactes (taille, lambda/lambda_1) : [(3, np.float64(1.0)), (3, np.float64(2.0)), (2, np.float64(3.0)), (3, np.float64(3.9616)), (6, np.float64(4.9616)), (6, np.float64(5.9616)), (3, np.float64(7.9231)), (3, np.float64(8.7709)), (6, np.float64(8.9231)), (4, np.float64(9.7709))]
+    paquets a 5 % (taille, moyenne/lambda_1) : [(3, np.float64(1.0)), (3, np.float64(2.0)), (2, np.float64(3.0)), (3, np.float64(3.962)), (6, np.float64(4.962)), (6, np.float64(5.962))]   [S^3 : (4, 1), (9, 2,667), (16, 5)]

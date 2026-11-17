@@ -1,0 +1,17 @@
+Contrôle sans D_F : μ = 0, m_tot = −1 (deux copies) : 8 plus petits |E| à q = 0 : [0. 0. 0. 0. 0. 0. 0. 0.]
+                    μ = 1 (un survivant par secteur) : [0. 0. 0. 0. 0. 0. 0. 0.]
+ε = 0.05 :  O = Γ5 : μ = 0, m_tot = −1 → [0.05 0.05 0.05 0.05] ; μ = 1 → [0. 0. 0. 0.] (q = 0) ; [0.06019 0.06019 0.06019 0.06019] (|q| = 0,05)
+ε = 0.1 :  O = Γ5 : μ = 0, m_tot = −1 → [0.1 0.1 0.1 0.1] ; μ = 1 → [0. 0. 0. 0.] (q = 0) ; [0.06019 0.06019 0.06019 0.06019] (|q| = 0,05)
+ε = 0.2 :  O = Γ5 : μ = 0, m_tot = −1 → [0.2 0.2 0.2 0.2] ; μ = 1 → [0. 0. 0. 0.] (q = 0) ; [0.06019 0.06019 0.06019 0.06019] (|q| = 0,05)
+
+Monômes O (produits des 6 générateurs) qui anticommutent avec α_d et Γ4, commutent avec Γ5, et anticommutent avec F :
+  O = A·Y1·Y2·Y3 : ε = 0,1, μ = 1, q = 0 → [0.1 0.1 0.1 0.1]
+  O = B·Y1·Y2·Y3 : ε = 0,1, μ = 1, q = 0 → [0.1 0.1 0.1 0.1]
+Lecture : A et B portent la représentation E de O (et de T, où E se scinde en deux représentations complexes conjuguées) :
+  aucun O de ce type n'est invariant sous T ; un couplage de Yukawa qui donne une masse au survivant doit briser T (ou passer par un autre canal).
+  J_lat O J_lat⁻¹ = +O pour O = Γ5
+  J_lat O J_lat⁻¹ = +O pour O = A·Y1·Y2·Y3
+  J_lat O J_lat⁻¹ = +O pour O = B·Y1·Y2·Y3
+=> le O qui donne la masse au survivant a la MÊME parité sous J_lat que Γ5 si les signes coïncident (compatibilité KO-1 à vérifier dans ce cas).
+
+Contrôle : μ FΓ5 habillé par γ_F, O = Γ5, ε = 0,1, q = 0 → [0.1 0.1 0.1 0.1] (les survivants ont alors le même goût dans les deux secteurs et prennent la masse ε ; mais ce terme détruit la structure réelle, V331 §4)

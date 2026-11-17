@@ -1,0 +1,32 @@
+K^(4) : v=26 aretes=716 |Aut|=13824 induits L/R/gen = 24/24/24 Betti={3: 12, 4: 36, 5: 36, 6: 12}
+   caracteres L (type -> pair, impair) : {(4,): (0, 0), (3, 1): (-6, 30), (2, 1, 1): (12, 12), (2, 2): (24, 24), (1, 1, 1, 1): (48, 48)}
+   caracteres R : {(2, 1, 1): (12, 12), (4,): (0, 0), (3, 1): (30, -6), (2, 2): (24, 24), (1, 1, 1, 1): (48, 48)}
+
+K_27_546 : v=27 aretes=717 simplexes=47169 |Aut|=3456 ; groupes induits L/R/gen = 24/24/6 ; Betti={3: 12, 4: 36, 5: 36, 6: 12}
+   J necessaire (sigma Aut sigma = Aut) : generateurs en defaut 0/15 ; module gauche = K^(4) : True ; module droit = K^(4) : True
+   sommets ajoutes : ['n1'] ; aretes ajoutees : [['g1', 'n1']] ; retirees : []
+
+K_27_559 : v=27 aretes=718 simplexes=47169 |Aut|=864 ; groupes induits L/R/gen = 24/6/6 ; Betti={3: 12, 4: 36, 5: 36, 6: 12}
+   J necessaire (sigma Aut sigma = Aut) : generateurs en defaut 3/12 ; module gauche = K^(4) : True ; module droit = K^(4) : False
+   caracteres R : {(3, 1): (30, -6), (2, 1, 1): (12, 12), (1, 1, 1, 1): (48, 48)}
+   sommets ajoutes : ['n1'] ; aretes ajoutees : [['L_x0', 'L_x1', 'L_x2', 'L_x3', 'L_z', 'R_w', 'R_x3'], ['g1', 'n1']] ; retirees : []
+
+K_27_1021 : v=27 aretes=718 simplexes=47171 |Aut|=192 ; groupes induits L/R/gen = 24/4/2 ; Betti={3: 12, 4: 36, 5: 36, 6: 12}
+   J necessaire (sigma Aut sigma = Aut) : generateurs en defaut 4/9 ; module gauche = K^(4) : True ; module droit = K^(4) : False
+   caracteres R : {(2, 2): (24, 24), (1, 1, 1, 1): (48, 48), (2, 1, 1): (12, 12)}
+   sommets ajoutes : ['n1'] ; aretes ajoutees : [['L_w', 'L_z', 'R_p0', 'R_x0', 'R_x1', 'R_z', 'g3'], ['R_z', 'g0', 'n1']] ; retirees : []
+
+K_27_1084 : v=27 aretes=718 simplexes=47171 |Aut|=384 ; groupes induits L/R/gen = 24/4/4 ; Betti={3: 12, 4: 36, 5: 36, 6: 12}
+   J necessaire (sigma Aut sigma = Aut) : generateurs en defaut 4/10 ; module gauche = K^(4) : True ; module droit = K^(4) : False
+   caracteres R : {(2, 2): (24, 24), (1, 1, 1, 1): (48, 48), (2, 1, 1): (12, 12)}
+   sommets ajoutes : ['n1'] ; aretes ajoutees : [['L_w', 'R_f', 'n1'], ['L_w', 'R_p0', 'R_x0', 'R_x1', 'R_z', 'g0', 'g3']] ; retirees : []
+
+K_28_767 : v=28 aretes=719 simplexes=47171 |Aut|=576 ; groupes induits L/R/gen = 24/6/4 ; Betti={3: 12, 4: 36, 5: 36, 6: 12}
+   J necessaire (sigma Aut sigma = Aut) : generateurs en defaut 3/11 ; module gauche = K^(4) : True ; module droit = K^(4) : False
+   caracteres R : {(2, 1, 1): (12, 12), (3, 1): (30, -6), (1, 1, 1, 1): (48, 48)}
+   sommets ajoutes : ['n1', 'n2'] ; aretes ajoutees : [['L_x0', 'L_x1', 'L_x2', 'L_x3', 'L_z', 'R_w', 'R_x3'], ['g0', 'n2'], ['g1', 'n1']] ; retirees : []
+
+K_28_789 : v=28 aretes=719 simplexes=47173 |Aut|=288 ; groupes induits L/R/gen = 24/6/2 ; Betti={3: 12, 4: 36, 5: 36, 6: 12}
+   J necessaire (sigma Aut sigma = Aut) : generateurs en defaut 3/10 ; module gauche = K^(4) : True ; module droit = K^(4) : False
+   caracteres R : {(3, 1): (30, -6), (2, 1, 1): (12, 12), (1, 1, 1, 1): (48, 48)}
+   sommets ajoutes : ['n1', 'n2'] ; aretes ajoutees : [['L_w', 'g0', 'n2'], ['L_x0', 'L_x1', 'L_x2', 'L_x3', 'L_z', 'R_w', 'R_x3'], ['g1', 'n1']] ; retirees : []

@@ -1,0 +1,8 @@
+ω=1 μ=1 γF=1 :   fenêtre 0.393 ; flot net par couche : [+0.017 +0.429 -0.455] ; total -0.008 ; saturées 0
+ω=1 μ=1 γF=-1 :   fenêtre 0.393 ; flot net par couche : [-0.017 -0.429 +0.455] ; total +0.008 ; saturées 0
+ω=1 μ=-1 γF=1 :   fenêtre 0.393 ; flot net par couche : [+0.017 +0.429 -0.455] ; total -0.008 ; saturées 0
+ω=1 μ=-1 γF=-1 :   fenêtre 0.393 ; flot net par couche : [-0.017 -0.429 +0.455] ; total +0.008 ; saturées 0
+ω=-1 μ=1 γF=1 :   fenêtre 0.393 ; flot net par couche : [-0.017 -0.429 +0.455] ; total +0.008 ; saturées 0
+ω=-1 μ=1 γF=-1 :   fenêtre 0.393 ; flot net par couche : [+0.017 +0.429 -0.455] ; total -0.008 ; saturées 0
+ω=-1 μ=-1 γF=1 :   fenêtre 0.393 ; flot net par couche : [-0.017 -0.429 +0.455] ; total +0.008 ; saturées 0
+ω=-1 μ=-1 γF=-1 :   fenêtre 0.393 ; flot net par couche : [+0.017 +0.429 -0.455] ; total -0.008 ; saturées 0

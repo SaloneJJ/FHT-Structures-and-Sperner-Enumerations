@@ -1,0 +1,41 @@
+== L1 : F = iAB commute avec Γ5, Y_d, Γ4, FΓ5 ; anticommute avec A, B, O_φ
+  [F,Γ5] 2.0e-17  max[F,Y_d] 4.9e-17  [F,Γ4] 1.4e-17  [F,FΓ5] 5.2e-17
+  {F,A} 5.6e-17  {F,B} 1.1e-16  {F,O_0.7} 8.3e-17   F²=1 : True
+  θ=0.3: |U O_φ U† − O_(φ+2θ)| = 2.2e-16, 4.4e-16 ; |… − O_(φ−2θ)| = 9.2e-01, 9.1e-01
+  θ=1.1: |U O_φ U† − O_(φ+2θ)| = 3.5e-16, 5.0e-16 ; |… − O_(φ−2θ)| = 1.3e+00, 1.3e+00
+== L2 : O_φ = O_0 (cos φ − i sin φ F)
+  écart max sur φ ∈ [0,2π) : 1.1e-16
+  φ = 0.00 : bloc ⟨f=−1|O_φ|f=+1⟩ = e^(i·+0.0000) × bloc(φ=0) ; écart 0.0e+00
+  φ = 0.50 : bloc ⟨f=−1|O_φ|f=+1⟩ = e^(i·-0.5000) × bloc(φ=0) ; écart 1.2e-16
+  φ = 1.20 : bloc ⟨f=−1|O_φ|f=+1⟩ = e^(i·-1.2000) × bloc(φ=0) ; écart 2.0e-16
+== c1 : Γ4 et U_I (inversion) vis-à-vis de O_φ et F
+  {Γ4,O_φ} 7.5e-17  [Γ4,F] 1.4e-17  {FΓ5,O_φ} 1.0e-17
+== L3 / b1 : relevés de O_h (V331) : action sur (A·Y123, B·Y123), sur FΓ5, sur Γ4
+  nombre de relevés : 48
+  (det g, g∈T?, tr g, det M_E, tr M_E, FΓ5→±, Γ4→±, Γ5→±) : multiplicité
+    (-1, False, -3, np.float64(1.0), np.float64(-2.0), np.float64(1.0), np.float64(-1.0), np.float64(1.0)) : 1
+    (-1, False, 0, np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(-1.0), np.float64(1.0)) : 8
+    (-1, False, 1, np.float64(1.0), np.float64(-2.0), np.float64(1.0), np.float64(-1.0), np.float64(1.0)) : 3
+    (-1, True, -1, np.float64(-1.0), np.float64(0.0), np.float64(-1.0), np.float64(-1.0), np.float64(1.0)) : 6
+    (-1, True, 1, np.float64(-1.0), np.float64(0.0), np.float64(-1.0), np.float64(-1.0), np.float64(1.0)) : 6
+    (1, False, -1, np.float64(-1.0), np.float64(0.0), np.float64(-1.0), np.float64(1.0), np.float64(1.0)) : 6
+    (1, False, 1, np.float64(-1.0), np.float64(0.0), np.float64(-1.0), np.float64(1.0), np.float64(1.0)) : 6
+    (1, True, -1, np.float64(1.0), np.float64(2.0), np.float64(1.0), np.float64(1.0), np.float64(1.0)) : 3
+    (1, True, 0, np.float64(1.0), np.float64(-1.0), np.float64(1.0), np.float64(1.0), np.float64(1.0)) : 8
+    (1, True, 3, np.float64(1.0), np.float64(2.0), np.float64(1.0), np.float64(1.0), np.float64(1.0)) : 1
+  éléments qui conservent FΓ5 : 24 ; images dans GL(E) : det M_E = [np.float64(1.0)] ; tr M_E = [np.float64(-2.0), np.float64(-1.0), np.float64(1.0), np.float64(2.0)]
+  → une réflexion de E (det M_E = −1) existe dans le groupe du modèle : False
+== b1 : pièce A (V22) : dim H1 = 2
+  caractère de S4 sur H1(A) par type de cycle : {(1, 1, 1, 1): np.float64(2.0), (1, 1, 2): np.float64(0.0), (1, 3): np.float64(-1.0), (2, 2): np.float64(2.0), (4,): np.float64(0.0)}  (E de S4 : (1,1,1,1):2, (1,1,2):0, (2,2):2, (1,3):−1, (4):0)
+  axes ↔ appariements des diagonales (coins du tétraèdre L : (+++), (+−−), (−+−), (−−+)) :
+    p0 = {01|23} ↔ axe x (milieu de l'arête x0x1 = [1 0 0])
+    p1 = {02|13} ↔ axe y (milieu de l'arête x0x2 = [0 1 0])
+    p2 = {03|12} ↔ axe z (milieu de l'arête x0x3 = [0 0 1])
+  Stab(x0) : ordre 6 ; classes modulo V4 atteintes : 6 (6 ⇒ Stab(x0) → S4/V4 est un isomorphisme)
+  Stab(x0,x1) : ordre 2 ; caractère E sur ses éléments : [np.float64(2.0), np.float64(0.0)] ⇒ droite fixe de E : True
+== symétrie antiunitaire Θ = W_g K (K : conjugaison dans la base géométrique ; g ∈ O \ T)
+  X_d réels : True ; Y_d imaginaires : True ; Γ4 imaginaire : True ; FΓ5 imaginaire : True ; O_φ imaginaire : True
+  ⇒ K : termes sin (i·antisym ⊗ Y) et cos invariants ; vertical Γ4 invariant ; μFΓ5 → −μFΓ5 ; O_φ → −O_φ
+  g ∈ O\T choisi : W_g K FΓ5 = +1 FΓ5 ; W_g K Γ4 = -1 Γ4
+  φ = 17.2° → Θ O_φ Θ⁻¹ = O_ψ, ψ = -137.2° (|O_ψ| = 1.000)
+  φ = 57.3° → Θ O_φ Θ⁻¹ = O_ψ, ψ = -177.3° (|O_ψ| = 1.000)

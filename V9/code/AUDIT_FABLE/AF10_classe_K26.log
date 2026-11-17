@@ -1,0 +1,11 @@
+| membre | role | sommets | aretes | simplexes | |Aut| | groupe sur G0 | orbites d'aretes | arete max | rayon / diam. | voisins L_z / R_z | sommets ajoutes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| K^(4) | representant (Definition de A2) | 26 | 716 | 47167 | 13824 | 24 | 29 | 12 | 1 / 2 | 23 / 23 | — |
+| K26° (V36) | representant (descente en volume) | 26 | 750 | 8523 | 13824 | 24 | 24 | 8 | 1 / 2 | 23 / 23 | — |
+| K26°° (V37) | representant (recuit ; plus petit volume trouve) | 26 | 542 | 7489 | 13824 | 24 | 17 | 8 | 1 / 2 | 15 / 25 | — |
+| K26* (V32) | representant (descente en aretes) | 26 | 490 | 31059 | 13824 | 24 | 16 | 10 | 1 / 2 | 23 / 23 | — |
+| V129-011 | representant (V129 : ajout/echange depuis K^(4)) | 26 | 734 | 48315 | 13824 | 24 | 29 | 12 | 1 / 2 | 24 / 23 | — |
+| V129-017 | representant (V129 : agrandissement depuis K26°°) | 26 | 542 | 7929 | 13824 | 24 | 17 | 8 | 1 / 2 | 15 / 25 | — |
+| V129-018 | representant (V129 : agrandissement depuis V129-017) | 26 | 638 | 9075 | 13824 | 24 | 17 | 8 | 1 / 2 | 15 / 25 | — |
+| K_27_546 | decore (pendant) | 27 | 717 | 47169 | 3456 | 6 | 59 | 12 | 1 / 2 | 23 / 23 | n1 |
+| K_36_44 | decore (pendant + jumeau ; sigma par prefixe) | 36 | 1197 | 58181 | 27648 | 24 | 40 | 12 | 2 / 3 | 29 / 27 | L_y0, L_y1, L_y2, L_y3, P0_L_z, R_y0, R_y1, R_y2, R_y3, T0_P0_L_z |

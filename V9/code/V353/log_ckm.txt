@@ -1,0 +1,14 @@
+== e1 : phase de secteur commune aux générations : |V| et J indépendants de (φ_u, φ_d)
+  tirage 0, (φ_u, φ_d) = (0°, 90°) : max| |V|−|V0| | = 1.1e-16 ; J = 2.6e-33 (J0 = 0.0e+00)
+  tirage 0, (φ_u, φ_d) = (17°, 109°) : max| |V|−|V0| | = 6.1e-16 ; J = -4.0e-18 (J0 = 0.0e+00)
+  tirage 0, (φ_u, φ_d) = (60°, 0°) : max| |V|−|V0| | = 8.9e-16 ; J = -7.8e-19 (J0 = 0.0e+00)
+  tirage 1, (φ_u, φ_d) = (0°, 90°) : max| |V|−|V0| | = 3.9e-16 ; J = 9.3e-35 (J0 = 0.0e+00)
+  tirage 1, (φ_u, φ_d) = (17°, 109°) : max| |V|−|V0| | = 7.8e-16 ; J = -3.9e-18 (J0 = 0.0e+00)
+  tirage 1, (φ_u, φ_d) = (60°, 0°) : max| |V|−|V0| | = 3.3e-16 ; J = -3.5e-18 (J0 = 0.0e+00)
+  tirage 2, (φ_u, φ_d) = (0°, 90°) : max| |V|−|V0| | = 3.9e-16 ; J = -8.1e-34 (J0 = 0.0e+00)
+  tirage 2, (φ_u, φ_d) = (17°, 109°) : max| |V|−|V0| | = 6.1e-16 ; J = -4.3e-19 (J0 = 0.0e+00)
+  tirage 2, (φ_u, φ_d) = (60°, 0°) : max| |V|−|V0| | = 3.3e-16 ; J = 5.1e-18 (J0 = 0.0e+00)
+== e2 : insertion A·Y123 ⊗ Y^A + B·Y123 ⊗ Y^B ⇒ bloc ⟨f=−1|·|f=+1⟩ = (bloc de O_0) ⊗ (Y^A − i Y^B)
+  écart au produit (bloc O_0) ⊗ (Y^A − iY^B) : 6.3e-16
+  exemple : Y^A, Y^B réelles symétriques non proportionnelles, u réel : J = 3.03e-02 (≠ 0 : l'octet fournit la phase)
+  contrôle : Y^B ∝ Y^A (direction E unique dans le secteur) : J = 1.2e-18

@@ -1,0 +1,3 @@
+homologie {4: 48, 5: 48} 1 s
+{'v': 56, 'facets': 1920, 'simplices': 57131, 'aut': 796262400, 'ngens': 38, 'betti': {4: 48, 5: 48}, 'P1': True, 'P2': True, 'P3': True, 'P4': True, 'dims': (48, 48), 'dimC1': 1, 'C1': True, 'C1_shift': True, 'check_eq': True} 116 s
+STRUCTURE REELLE, BIMODULE DIFFERENT

@@ -1,0 +1,10 @@
+[V32] facettes 490 ; E' = (1, 26, (2, 2, '2 (2.0000)'), (3, 4, '515/129 (3.9922)'), 31059, 490) ; Betti {3: 12, 4: 36, 5: 36, 6: 12} ; |Aut| 13824
+   256 classes de mouvements d'orbite (14 s)
+   DESCEND (e_C (IG))                                                     12
+   DESCEND (e_C (LG))                                                     2
+   agrand non elementaire                                                 18
+   monte (e_C (IG))                                                       57
+   monte (e_S (volume))                                                   70
+   ne monte pas mais sort de la classe (Betti) => e_T > 0, monte          97
+   duree 34 s
+   VERDICT Q1 [V32] : PAS UN PUITS (14 mouvements descendants ; meilleur : agrand, E' = (1, 26, (1, 2, '418/245 (1.7061)'), (3, 4, '479/129 (3.7132)'), 44639, 490))

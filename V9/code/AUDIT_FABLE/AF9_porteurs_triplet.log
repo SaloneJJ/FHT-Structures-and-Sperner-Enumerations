@@ -1,0 +1,16 @@
+K26        v=26 simplexes=47167 |Aut|=13824 P1..P4=1111 dimC1=6 C1=True C1(d+-1)=True C2=True t=43.1s -> PORTEUR DU TRIPLET DE K26
+K26s1      v=26 simplexes=47167 |Aut|=13824 P1..P4=1111 dimC1=0 C1=False C1(d+-1)=False C2=True t=37.4s -> NON PORTEUR (C1 : pas de J' exact)
+V37        v=26 simplexes=7489 |Aut|=13824 P1..P4=1111 dimC1=6 C1=True C1(d+-1)=True C2=True t=36.6s -> PORTEUR DU TRIPLET DE K26
+V36        v=26 simplexes=8523 |Aut|=13824 P1..P4=1111 dimC1=6 C1=True C1(d+-1)=True C2=True t=37.2s -> PORTEUR DU TRIPLET DE K26
+V32        v=26 simplexes=31059 |Aut|=13824 P1..P4=1111 dimC1=6 C1=True C1(d+-1)=True C2=True t=43.7s -> PORTEUR DU TRIPLET DE K26
+K_27_546   v=27 simplexes=47169 |Aut|=3456 P1..P4=1111 dimC1=12 C1=True C1(d+-1)=True C2=True t=37.4s -> PORTEUR DU TRIPLET DE K26 (groupe plus petit que S4^3)
+K_27_559   v=27 simplexes=47169 |Aut|=864 P1..P4=1011 dimC1=None C1=None C1(d+-1)=None C2=False t=0.6s -> NON PORTEUR (P2 : sigma Aut sigma != Aut)
+K_27_1021  v=27 simplexes=47171 |Aut|=192 P1..P4=1011 dimC1=None C1=None C1(d+-1)=None C2=False t=0.5s -> NON PORTEUR (P2 : sigma Aut sigma != Aut)
+K_27_1084  v=27 simplexes=47171 |Aut|=384 P1..P4=1011 dimC1=None C1=None C1(d+-1)=None C2=False t=0.5s -> NON PORTEUR (P2 : sigma Aut sigma != Aut)
+K_28_767   v=28 simplexes=47171 |Aut|=576 P1..P4=1011 dimC1=None C1=None C1(d+-1)=None C2=False t=0.6s -> NON PORTEUR (P2 : sigma Aut sigma != Aut)
+K_28_789   v=28 simplexes=47173 |Aut|=288 P1..P4=1011 dimC1=None C1=None C1(d+-1)=None C2=False t=0.6s -> NON PORTEUR (P2 : sigma Aut sigma != Aut)
+K_36_44    v=36 simplexes=58181 |Aut|=27648 P1..P4=0011 dimC1=None C1=None C1(d+-1)=None C2=True t=1.3s -> NON PORTEUR (P1 : sigma non defini)
+V129-011   v=26 simplexes=48315 |Aut|=13824 P1..P4=1111 dimC1=6 C1=True C1(d+-1)=True C2=True t=36.2s -> PORTEUR DU TRIPLET DE K26
+V129-017   v=26 simplexes=7929 |Aut|=13824 P1..P4=1111 dimC1=6 C1=True C1(d+-1)=True C2=True t=29.7s -> PORTEUR DU TRIPLET DE K26
+V129-018   v=26 simplexes=9075 |Aut|=13824 P1..P4=1111 dimC1=6 C1=True C1(d+-1)=True C2=True t=36.5s -> PORTEUR DU TRIPLET DE K26
+K_36_44 (sigma par prefixe, ajout apres coup) dimC1=6 C1=True C1(d+-1)=True C2=True -> PORTEUR DU TRIPLET DE K26

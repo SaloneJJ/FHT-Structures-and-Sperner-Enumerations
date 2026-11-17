@@ -1,0 +1,9 @@
+B0 : Betti {1: 4}, |Aut| 120
+B0 + marque z : Betti {1: 4}, |Aut| 24
+R^sgn[S5]                    |G|=   120 classes=  7 : M1(C) + M4(C) + M5(C) + M6(R)   (dim 120)
+R^sgn[S4] (stab. de z)       |G|=    24 classes=  5 : H + M1(C) + M3(C)   (dim 24)
+4|S4 : composantes (degre, type tordu par sgn, multiplicite) :
+   degre 1, type C (apparie), multiplicite 1
+   degre 3, type C (apparie), multiplicite 1
+X_LR (appariement + couleur) : sommets 58, facettes 2380, Betti {4: 72, 5: 72}, |Aut| = 3538944 (prevu 3538944) (10 s)
+X_SM (droite + couleur) : sommets 60, facettes 2310, Betti {4: 48, 5: 48}, |Aut| = 1990656 (prevu 1990656) (9 s)

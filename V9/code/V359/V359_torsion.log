@@ -1,0 +1,16 @@
+== contrôles
+  C3               : c = +0.5493061443 (e^c = 1.732051) ; Betti réduits (ℚ) [0, 1] ; superdét. +0.0e+00 ; formule pondérée +0.5493061443
+  simplexe Δ4      : c = +0.0000000000 (e^c = 1.000000) ; Betti réduits (ℚ) [0, 0, 0, 0, 0] ; superdét. +8.9e-16 ; formule pondérée -0.0000000000
+  RP² (6 sommets)  : c = -0.6931471806 (e^c = 0.500000) ; Betti réduits (ℚ) [0, 0, 0] ; superdét. +0.0e+00 ; formule pondérée -0.6931471806
+  référence : ½ ln 3 = 0.5493061443 ; ln 2 = 0.6931471806
+== V37 : c = -1.49157942 ; e^c = 0.2250170 ; e^2c = 0.0506326 ; e^-c = 4.4441
+     Betti réduits (ℚ, via SVD) [0, 0, 0, 12, 36, 36, 12, 0] ; superdét. Σ(−1)^q ln det′Δ_q = +4.8e-13 ; −½Σ(−1)^q q ln det′Δ_q = -1.49157942
+     ln det′(d_q* d_q) : q=-1:3.258 q=0:73.421 q=1:498.684 q=2:1467.582 q=3:2465.616 q=4:2360.993 q=5:1081.201 q=6:143.780
+     Betti réduits mod 2 : [0, 0, 0, 12, 36, 36, 12, 0]
+     Betti réduits mod 3 : [0, 0, 0, 12, 36, 36, 12, 0]
+     Betti réduits mod 5 : [0, 0, 0, 12, 36, 36, 12, 0]
+     Betti réduits mod 7 : [0, 0, 0, 12, 36, 36, 12, 0]
+== V36 : c = -0.16597698 ; e^c = 0.8470657 ; e^2c = 0.7175204 ; e^-c = 1.1805
+     Betti réduits (ℚ, via SVD) [0, 0, 0, 12, 36, 36, 12, 0] ; superdét. Σ(−1)^q ln det′Δ_q = +7.2e-13 ; −½Σ(−1)^q q ln det′Δ_q = -0.16597698
+     ln det′(d_q* d_q) : q=-1:3.258 q=0:73.544 q=1:570.606 q=2:1911.985 q=3:3073.953 q=4:2438.675 q=5:850.417 q=6:73.698
+(V32 omis : arrêté volontairement, coût ; la valeur 0,8567 de V354 n'est pas recontrôlée ici)

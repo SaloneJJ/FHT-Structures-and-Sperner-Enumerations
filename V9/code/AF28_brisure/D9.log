@@ -1,0 +1,1 @@
+{'v': 64, 'facets': 3570, 'simplices': 92139, 'aut': 1990656, 'ngens': 24, 'betti': {4: 24, 5: 48, 6: 24}, 'P1': True, 'P2': True, 'P3': True, 'P4': True, 'dims': (48, 48), 'dimC1': 6, 'C1': True, 'C1_shift': True, 'check_eq': True} 470 s

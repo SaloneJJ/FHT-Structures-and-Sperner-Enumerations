@@ -1,0 +1,7 @@
+S3                   orbites    4 complexes         4 complet ; trouves [] (0.0 s)
+S3+S4                orbites    9 complexes        14 complet ; trouves [('B1', 2)] (0.0 s)
+S3+A4                orbites   14 complexes        48 complet ; trouves [('B1', 3)] (0.0 s)
+C4                   orbites    9 complexes        14 complet ; trouves [] (0.0 s)
+V4'                  orbites   10 complexes        22 complet ; trouves [] (0.0 s)
+S3+S4+S4             orbites   19 complexes       158 complet ; trouves [('B1', 4), ('B0', 6), ('B0', 8), ('B0', 8), ('B0', 10)] (0.0 s)
+S3+D4                orbites   21 complexes       198 complet ; trouves [('B1', 4)] (0.0 s)

@@ -1,0 +1,21 @@
+S4, sgn (controle A_F)       |G|=    24 classes=  5 : H + M1(C) + M3(C)   (dim 24)
+S5, sgn                      |G|=   120 classes=  7 : M1(C) + M4(C) + M5(C) + M6(R)   (dim 120)
+S5, trivial                  |G|=   120 classes=  7 : M1(R) + M1(R) + M4(R) + M4(R) + M5(R) + M5(R) + M6(R)   (dim 120)
+1152
+S4 wr C2, sgn8               |G|=  1152 classes= 20 : M1(C) + M1(C) + M2(R) + M4(C) + M4(R) + M4(R) + M6(C) + M6(C) + M9(C) + M9(C) + M12(C) + M18(R)   (dim 1152)
+S4 wr C2, sgn8*swap          |G|=  1152 classes= 20 : H + M1(C) + M1(C) + M4(C) + M4(C) + M6(C) + M6(C) + M9(C) + M9(C) + M9(H) + M12(C)   (dim 1152)
+S4 wr C2, swap               |G|=  1152 classes= 20 : M1(C) + M1(C) + M2(R) + M4(C) + M4(R) + M4(R) + M6(R) + M6(R) + M6(R) + M6(R) + M9(C) + M9(C) + M12(R) + M12(R) + M18(R)   (dim 1152)
+S4 wr C2, trivial            |G|=  1152 classes= 20 : M1(R) + M1(R) + M1(R) + M1(R) + M2(R) + M4(R) + M4(R) + M4(R) + M4(R) + M6(R) + M6(R) + M6(R) + M6(R) + M9(R) + M9(R) + M9(R) + M9(R) + M12(R) + M12(R) + M18(R)   (dim 1152)
+2880
+S4xS5, sgn x 1               |G|=  2880 classes= 35 : H + H + M1(C) + M1(C) + M3(C) + M3(C) + M4(C) + M4(C) + M4(H) + M4(H) + M5(C) + M5(C) + M5(H) + M5(H) + M6(C) + M6(H) + M12(C) + M12(C) + M15(C) + M15(C) + M18(C)   (dim 2880)
+S4xS5, sgn x sgn             |G|=  2880 classes= 35 : M1(C) + M1(C) + M2(C) + M3(C) + M3(C) + M4(C) + M4(C) + M5(C) + M5(C) + M6(C) + M6(H) + M8(C) + M10(C) + M12(C) + M12(C) + M15(C) + M15(C) + M18(C)   (dim 2880)
+S4xS5, 1 x sgn               |G|=  2880 classes= 35 : M1(C) + M1(C) + M2(C) + M3(C) + M3(C) + M4(C) + M4(C) + M5(C) + M5(C) + M6(R) + M6(R) + M8(C) + M10(C) + M12(C) + M12(C) + M12(R) + M15(C) + M15(C) + M18(R) + M18(R)   (dim 2880)
+S6, sgn                      |G|=   720 classes= 11 : M1(C) + M5(C) + M5(C) + M9(C) + M10(C) + M16(R)   (dim 720)
+GL(2,3) 48
+GL(2,3), trivial             |G|=    48 classes=  8 : M1(R) + M1(R) + M2(C) + M2(R) + M3(R) + M3(R) + M4(R)   (dim 48)
+GL(2,3), det                 |G|=    48 classes=  8 : H + H + H + M1(C) + M2(H) + M3(C)   (dim 48)
+2O 48
+48
+|2T| 24
+2O, trivial                  |G|=    48 classes=  8 : H + H + M1(R) + M1(R) + M2(H) + M2(R) + M3(R) + M3(R)   (dim 48)
+2O, eps (2O/2T)              |G|=    48 classes=  8 : H + M1(C) + M2(C) + M3(C) + M4(R)   (dim 48)

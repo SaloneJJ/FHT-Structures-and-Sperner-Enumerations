@@ -1,0 +1,16 @@
+V0 : f_l0 engendre une droite invariante ; irreductible [2]
+V0 : f_t engendre une droite invariante ; irreductible [0]
+irreductibles de B (indice, degre, z) : [(0, 1, -1), (1, 1, 1), (2, 1, -1), (3, 2, -1), (4, 1, 1), (5, 2, 1)]
+controle S+M : 1[0](spin) en degre 1 (x1), 1[2](spin) en degre 1 (x1), 2[3](spin) en degre 1 (x1)
+orbites de sommets : [['c'], ['l0'], ['l2', 'l3', 'l4'], ['m'], ['t0', 't1', 't2', 't3', 't4', 't5'], ['t6', 't7'], ['v0', 'v1'], ['v2', 'v3', 'v4', 'v5', 'v6', 'v7']]
+
+succes : 9
+  S+M  susp Y = orbites de ['l2', 't6', 'v2'] (11 sommets) ; |Aut| = 12 ; z=+1 : 0 ; homologie : 1[0](spin) en degre 1 (x1), 1[2](spin) en degre 1 (x1), 2[3](spin) en degre 2 (x1)
+  S    susp Y = orbites de ['l2', 't6', 'v2'] (11 sommets) ; |Aut| = 12 ; z=+1 : 0 ; homologie : 1[0](spin) en degre 1 (x1), 1[2](spin) en degre 1 (x1), 2[3](spin) en degre 2 (x1)
+  S+M  susp Y = orbites de ['l0', 'l2', 't6', 'v2'] (12 sommets) ; |Aut| = 12 ; z=+1 : 2 ; homologie : 1[0](spin) en degre 1 (x1), 1[2](spin) en degre 1 (x1), 1[4] en degre 1 (x2), 2[3](spin) en degre 2 (x1)
+  S+M  susp Y = orbites de ['l2', 'm', 't6', 'v2'] (12 sommets) ; |Aut| = 12 ; z=+1 : 2 ; homologie : 1[0](spin) en degre 1 (x1), 1[2](spin) en degre 1 (x1), 1[4] en degre 1 (x2), 2[3](spin) en degre 2 (x1)
+  S    susp Y = orbites de ['l0', 'l2', 't6', 'v2'] (12 sommets) ; |Aut| = 12 ; z=+1 : 2 ; homologie : 1[0](spin) en degre 1 (x1), 1[2](spin) en degre 1 (x1), 1[4] en degre 1 (x2), 2[3](spin) en degre 2 (x1)
+  S+M  susp Y = orbites de ['l0', 'l2', 'm', 't6', 'v2'] (13 sommets) ; |Aut| = 12 ; z=+1 : 2 ; homologie : 1[0](spin) en degre 1 (x1), 1[2](spin) en degre 1 (x1), 1[4] en degre 1 (x2), 2[3](spin) en degre 2 (x1)
+  S+M  susp Y = orbites de ['l0', 'l2', 't6', 'v0', 'v2'] (14 sommets) ; |Aut| = 12 ; z=+1 : 2 ; homologie : 1[0](spin) en degre 1 (x1), 1[2](spin) en degre 1 (x1), 1[4] en degre 1 (x2), 2[3](spin) en degre 2 (x1)
+  S    susp Y = orbites de ['l0', 'l2', 't6', 'v0', 'v2'] (14 sommets) ; |Aut| = 12 ; z=+1 : 2 ; homologie : 1[0](spin) en degre 1 (x1), 1[2](spin) en degre 1 (x1), 1[4] en degre 1 (x2), 2[3](spin) en degre 2 (x1)
+  S+M  susp Y = orbites de ['l0', 'l2', 'm', 't6', 'v0', 'v2'] (15 sommets) ; |Aut| = 12 ; z=+1 : 2 ; homologie : 1[0](spin) en degre 1 (x1), 1[2](spin) en degre 1 (x1), 1[4] en degre 1 (x2), 2[3](spin) en degre 2 (x1)

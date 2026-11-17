@@ -1,0 +1,23 @@
+== M1
+  Γ5             herm True  Z²=1 True  {Z,Y_d}=0 True  {Z,Γ4}=0 True  [Z,Γ5]=0 True  {Z,F}=0 False  [Z,F]=0 True  ; relation à X_d : comm [np.float64(4.619), np.float64(4.619), np.float64(4.619)] anticomm [np.float64(3.266), np.float64(3.266), np.float64(3.266)]
+  A·Y123         herm True  Z²=1 True  {Z,Y_d}=0 True  {Z,Γ4}=0 True  [Z,Γ5]=0 True  {Z,F}=0 True  [Z,F]=0 False  ; relation à X_d : comm [np.float64(4.0), np.float64(4.0), np.float64(0.0)] anticomm [np.float64(4.0), np.float64(4.0), np.float64(5.657)]
+  B·Y123         herm True  Z²=1 True  {Z,Y_d}=0 True  {Z,Γ4}=0 True  [Z,Γ5]=0 True  {Z,F}=0 True  [Z,F]=0 False  ; relation à X_d : comm [np.float64(2.309), np.float64(2.309), np.float64(4.619)] anticomm [np.float64(5.164), np.float64(5.164), np.float64(3.266)]
+  O_φ (φ = 0,7)  herm True  Z²=1 True  {Z,Y_d}=0 True  {Z,Γ4}=0 True  [Z,Γ5]=0 True  {Z,F}=0 True  [Z,F]=0 False  ; relation à X_d : comm [np.float64(4.547), np.float64(1.572), np.float64(2.976)] anticomm [np.float64(3.365), np.float64(5.434), np.float64(4.811)]
+  F hermitien True  F²=1 True  [F, X_d] = 0 False  [F, Γ4] = 0 True
+== M2 : J = U K, U = Γ5 A B
+  J² = U U* = (-1+0j)  (∝ 1 : True )
+  J Γ5 J⁻¹ = +Γ5
+  J A·Y123 J⁻¹ = +A·Y123
+  J B·Y123 J⁻¹ = +B·Y123
+  J O_φ J⁻¹ = +O_φ
+  J Y_d J⁻¹ = +Y_d
+  J X_d J⁻¹ = +X_d
+  J Γ4 J⁻¹ = +Γ4
+  J FΓ5 J⁻¹ = −FΓ5
+== M4 : automorphismes de Cl(6) relevant les rotations (au niveau de Clifford)
+  C2 (axe 1) relevé correct True ; O_φ invariant (φ = 0,7) : True
+  C2 (axe 2) relevé correct True ; O_φ invariant (φ = 0,7) : True
+  C2 (axe 3) relevé correct True ; O_φ invariant (φ = 0,7) : True
+  C3 : U X_d U⁻¹ = X_{d+1} True
+  C3 : O_φ (φ = 0.0°) -> O_ψ avec ψ = 120.0° (|composantes| = 1.000) ; Γ5 invariant True ; F -> 1.0·F
+  C3 : O_φ (φ = 40.1°) -> O_ψ avec ψ = 160.1° (|composantes| = 1.000) ; Γ5 invariant True ; F -> 1.0·F

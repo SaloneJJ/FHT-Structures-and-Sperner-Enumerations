@@ -1,0 +1,28 @@
+===== K26 V37 : 542 facettes
+  côté L : étiquetages des p compatibles avec A4 : 3 ; transposition x0<->x1 (impaire) automorphisme : True ; 3-cycle : True ; double transposition : True
+  côté R : étiquetages des p compatibles avec A4 : 3 ; transposition x0<->x1 (impaire) automorphisme : True ; 3-cycle : True ; double transposition : True
+  lien de L_x0 : 84 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3), np.int64(0)]
+  lien de R_x0 : 43 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3), np.int64(0)]
+  lien de L_x2 : 84 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3), np.int64(0)]
+  lien de R_x3 : 43 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3), np.int64(0)]
+  côté L : triangles x_i x_j x_k faces de K26 : [False, False, False, False] ; sommets w tels que les 3 triangles (x_a x_b w) existent pour chaque face : ['L_q', 'R_z'] (2)
+  côté R : triangles x_i x_j x_k faces de K26 : [False, False, False, False] ; sommets w tels que les 3 triangles (x_a x_b w) existent pour chaque face : ['R_z'] (1)
+===== K26vol V36 : 750 facettes
+  côté L : étiquetages des p compatibles avec A4 : 3 ; transposition x0<->x1 (impaire) automorphisme : True ; 3-cycle : True ; double transposition : True
+  côté R : étiquetages des p compatibles avec A4 : 3 ; transposition x0<->x1 (impaire) automorphisme : True ; 3-cycle : True ; double transposition : True
+  lien de L_x0 : 108 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3)]
+  lien de R_x0 : 82 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3), np.int64(0), np.int64(0)]
+  lien de L_x2 : 108 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3)]
+  lien de R_x3 : 82 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3), np.int64(0), np.int64(0)]
+  côté L : triangles x_i x_j x_k faces de K26 : [False, False, False, False] ; sommets w tels que les 3 triangles (x_a x_b w) existent pour chaque face : ['L_z', 'R_w', 'R_z', 'g0', 'g1', 'g2', 'g3'] (7)
+  côté R : triangles x_i x_j x_k faces de K26 : [False, False, False, False] ; sommets w tels que les 3 triangles (x_a x_b w) existent pour chaque face : ['L_w', 'L_z', 'R_z', 'g0', 'g1', 'g2', 'g3'] (7)
+===== K26* V32 : 490 facettes
+  côté L : étiquetages des p compatibles avec A4 : 3 ; transposition x0<->x1 (impaire) automorphisme : True ; 3-cycle : True ; double transposition : True
+  côté R : étiquetages des p compatibles avec A4 : 3 ; transposition x0<->x1 (impaire) automorphisme : True ; 3-cycle : True ; double transposition : True
+  lien de L_x0 : 138 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3), np.int64(0), np.int64(0), np.int64(0)]
+  lien de R_x0 : 132 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3), np.int64(0), np.int64(0), np.int64(0)]
+  lien de L_x2 : 138 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3), np.int64(0), np.int64(0), np.int64(0)]
+  lien de R_x3 : 132 facettes, Betti réduits [np.int64(0), np.int64(0), np.int64(3), np.int64(6), np.int64(3), np.int64(0), np.int64(0), np.int64(0)]
+  côté L : triangles x_i x_j x_k faces de K26 : [True, True, True, True] ; sommets w tels que les 3 triangles (x_a x_b w) existent pour chaque face : ['L_z', 'R_f', 'R_p0', 'R_p1', 'R_p2', 'R_q', 'R_w', 'R_x0']... (16)
+  côté R : triangles x_i x_j x_k faces de K26 : [True, True, True, True] ; sommets w tels que les 3 triangles (x_a x_b w) existent pour chaque face : ['L_f', 'L_p0', 'L_p1', 'L_p2', 'L_q', 'L_w', 'L_x0', 'L_x1']... (16)
+(b) image des 4 faces sortantes par x0<->x1 (+1 : sortante, -1 : rentrante) : [-1, -1, -1, -1]  ; par le 3-cycle : [1, 1, 1, 1]

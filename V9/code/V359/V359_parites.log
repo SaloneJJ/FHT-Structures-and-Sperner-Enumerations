@@ -1,0 +1,9 @@
+F − (+1) Γ4 S : 1.2e+00
+F − (-1) Γ4 S : 6.3e-13
+[F,S] 0.0e+00 ; [Γ4,S] 0.0e+00 ; F* + F (base des sites) 1.3e-12
+(Γ4, FΓ5, S) = (1, 1, 1) : 12 éléments ; det = [1] ; relevé vérifié : True
+(Γ4, FΓ5, S) = (1, -1, -1) : 12 éléments ; det = [1] ; relevé vérifié : True
+(Γ4, FΓ5, S) = (-1, 1, -1) : 12 éléments ; det = [-1] ; relevé vérifié : True
+(Γ4, FΓ5, S) = (-1, -1, 1) : 12 éléments ; det = [-1] ; relevé vérifié : True
+Lecture : un élément qui renverse Γ4 en gardant S existe (−,−,+) : une donnée de type S (marque L/R) ne fixe pas ω ;
+un élément (+,−,−) renverse μ sans toucher Γ4 : en l'absence de terme en S, flot(ω, μ) = flot(ω, −μ) exactement.

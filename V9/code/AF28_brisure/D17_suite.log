@@ -1,0 +1,4 @@
+== X_PS' : |Aut| = 88473600 ; generateurs 34 dont 14 purement gauches ; Betti {4: 48, 5: 48} (6 s)
+   ordre zero : True ; dim (sur F_p) des D admissibles (gamma-impair, J'D = DJ', ordre un) = 0  (108 s)
+== X_grand : |Aut| = 796262400 ; generateurs 38 dont 16 purement gauches ; Betti {4: 48, 5: 48} (5 s)
+   ordre zero : True ; dim (sur F_p) des D admissibles (gamma-impair, J'D = DJ', ordre un) = 0  (166 s)

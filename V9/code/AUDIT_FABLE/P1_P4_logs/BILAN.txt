@@ -1,0 +1,9 @@
+=== Bilan P1 / P4 (criteres ecrits avant calcul, 13/11/2026)
+P1 -- branche du jumeau a N = 4 (secteur gamma_F = +1, 64 pas)
+  eps = 0   : couches [0.453, 0.806, 0.241, 0.012, -0.763] ; F(4) = -0.763 (F(3) = -0.692) -> CONFIRME
+  eps = 0,2 : couches [-0.015, 0.422, 0.113, -0.007, -0.084] ; F(4) = -0.084 (F(3) = -0.106) -> ECHEC
+  => l'arbre ne porte le jumeau, aux tailles accessibles, que pour lambda_j <~ 0,3 : a ecrire dans A3.
+P4 -- flot C3' et pas en theta (R-unif, gamma_F = +1)
+  N = 3, 256 pas : couches [0.03, 0.623, 0.299, -0.969] ; F(3) = -0.969 (64 pas : -0.943, 128 pas : -0.961) ; croissance en |F| et increments decroissants : True -> conforme
+  extrapolation de Richardson (64, 128, 256) : ordre p = 1.17, F(pas -> 0) = -0.975 -> « poids spectral -> -1 a N fixe » [E]
+  N = 4, 128 pas : couches [0.03, 0.597, 0.278, 0.01, -0.951] ; F(4) = -0.951 (64 pas : -0.904) -> conforme (|F(4)| > 0,904)

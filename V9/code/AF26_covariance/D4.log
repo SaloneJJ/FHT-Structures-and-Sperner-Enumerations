@@ -1,0 +1,8 @@
+D4, N = 2 (conteneur, 14/11/2026, 329 s)
+AF23 (signes SVD)      mu=1 : |E|min 0.2413, n_leger 4, 6 plus petites [0.2413, 0.2413, 0.3177, 0.3177, 0.4232, 0.4232] ; mu=0 : |E|min 0.7172
+jauge facette (0,0)    mu=1 : |E|min 0.2413, n_leger 4, 6 plus petites [0.2413, 0.2413, 0.3177, 0.3177, 0.4232, 0.4232] ; mu=0 : |E|min 0.7172
+   controle de jauge : ecart 0.0
+aleatoire 0            mu=1 : |E|min 0.2234, n_leger 2, 6 plus petites [0.2234, 0.2906, 0.3621, 0.3889, 0.4303, 0.4659] ; mu=0 : |E|min 0.6658
+aleatoire 1            mu=1 : |E|min 0.2550, n_leger 2, 6 plus petites [0.255, 0.2728, 0.3617, 0.3658, 0.4542, 0.4591] ; mu=0 : |E|min 0.6858
+aleatoire 2            mu=1 : |E|min 0.2864, n_leger 2, 6 plus petites [0.2864, 0.2864, 0.3852, 0.3852, 0.4555, 0.4555] ; mu=0 : |E|min 0.7408
+aleatoire 3            mu=1 : |E|min 0.3143, n_leger 2, 6 plus petites [0.3143, 0.3505, 0.3649, 0.3843, 0.4252, 0.4303] ; mu=0 : |E|min 0.6875

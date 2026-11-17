@@ -1,0 +1,9 @@
+{
+  "title": "Fractal Hyper-Trees: programs and logs of the trilogy (version 9)",
+  "upload_type": "software",
+  "creators": [{"name": "Salone, Jean-Jacques", "orcid": "0009-0001-1033-5694",
+                "affiliation": "CRREF (EA 4538), University of the Antilles; LIM, University of La Réunion"}],
+  "description": "Programs, logs and pre-registered criteria supporting the three articles 'Fractal Hyper-Trees I. Combinatorial foundations', 'II. The finite spectral triple of the Standard Model from flat FHTs' and 'III. The continuum from above' (version 9). Code: MIT; logs and data: CC BY 4.0. Written with substantial assistance from large language models (Claude), as declared in the articles.",
+  "license": "MIT",
+  "keywords": ["fractal hyper-trees", "noncommutative geometry", "spectral triple", "Standard Model", "neutrino mixing", "twisted group algebras"]
+}

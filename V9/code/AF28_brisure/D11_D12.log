@@ -1,0 +1,2 @@
+D11 : 683 complexes testes (apres filtre) ; succes : 0 (10 s)
+D12 : homologie de base sous SD16 [((1, 4), np.int64(1)), ((1, 5), np.int64(1))] ; succes (|Aut| = 16, homologie inchangee) : 0 (10 s)

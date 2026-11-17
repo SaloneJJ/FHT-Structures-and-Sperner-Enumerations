@@ -1,0 +1,28 @@
+S4 : |G|=24, 68 generateurs, rang du reseau 5 / 5
+   irreductible rationnel de degre  1 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  1 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  2 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  3 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  3 : dans le reseau (Moore realisable, condition necessaire) ? True
+GL(2,3) : |G|=48, 138 generateurs, rang du reseau 7 / 8
+   irreductible rationnel de degre  1 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  1 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  4 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  2 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  3 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  4 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  3 : dans le reseau (Moore realisable, condition necessaire) ? True
+Q8 (controle classique) : |G|=8, 13 generateurs, rang du reseau 5 / 5
+   irreductible rationnel de degre  1 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  1 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  1 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  2 : dans le reseau (Moore realisable, condition necessaire) ? False
+   irreductible rationnel de degre  1 : dans le reseau (Moore realisable, condition necessaire) ? True
+S5 : |G|=120, 379 generateurs, rang du reseau 7 / 7
+   irreductible rationnel de degre  1 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  1 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  5 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  5 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  4 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  6 : dans le reseau (Moore realisable, condition necessaire) ? True
+   irreductible rationnel de degre  4 : dans le reseau (Moore realisable, condition necessaire) ? True

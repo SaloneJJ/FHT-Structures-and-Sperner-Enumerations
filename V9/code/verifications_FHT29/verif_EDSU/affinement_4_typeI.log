@@ -1,0 +1,10 @@
+ε = 0.0: max |s23 − 0.5| = 5.08e-13 ; max ||δ| − 90°| = 2.35e-10
+ε = 0.05: max |s23 − 0.5| = 1.42e-13 ; max ||δ| − 90°| = 6.32e-10
+ε = 0.2: max |s23 − 0.5| = 1.34e-13 ; max ||δ| − 90°| = 2.94e-08
+critère : PASSE
+  R =   0.3 : médiane |Δ sin²θ12| (contre TM1 au même s13) = 0.4647
+  R =   1.0 : médiane |Δ sin²θ12| (contre TM1 au même s13) = 0.5333
+  R =   3.0 : médiane |Δ sin²θ12| (contre TM1 au même s13) = 0.6050
+  R =  10.0 : médiane |Δ sin²θ12| (contre TM1 au même s13) = 0.6342
+  R =  30.0 : médiane |Δ sin²θ12| (contre TM1 au même s13) = 0.5362
+  R = 100.0 : médiane |Δ sin²θ12| (contre TM1 au même s13) = 0.5988

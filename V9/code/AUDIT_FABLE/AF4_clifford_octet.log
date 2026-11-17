@@ -1,0 +1,49 @@
+Generateurs : six involutions hermitiennes anticommutantes (Cl(6) sur C^8)
+  [ok] X_d, Y_d hermitiens, de carre 1, deux a deux anticommutants : VRAI
+  [ok] flux pi sur chaque face du cube : X_a X_b X_a X_b = -1 : VRAI
+  [ok] Gamma5, A, B, Y_d : six involutions hermitiennes anticommutantes : VRAI
+  [ok] Gamma4 = Gamma5 Y1 Y2 Y3 hermitien, de carre 1, anticommute avec Gamma5 et Y_d, commute avec A, B : VRAI
+Lemme « Clifford identities »
+  [ok] (i) F^2 = 1 : VRAI
+  [ok] (i) F* = -F (adjoint) -- ENONCE TEL QU'ECRIT dans new_sec7.tex : FAUX
+  [ok] (i) F hermitien (F* = F) et F^T = -F (F imaginaire pur) -- enonce corrige : VRAI
+  [ok] (i) F commute avec Gamma5, Y_d, Gamma4 : VRAI
+  [ok] (i) F anticommute avec A et B : VRAI
+  [ok] (ii) F = sauts imaginaires +-i/sqrt3 sur les diagonales de face (distance de Hamming 2), 12 diagonales : VRAI
+  [ok] (ii) F Gamma5 = sauts imaginaires +-i sur les 4 grandes diagonales (antipodes) : VRAI
+  [ok] (ii) F Gamma5 = i U_I, U_I = (signes) x (inversion s -> 1-s), U_I unitaire : VRAI
+       U_I^2 = -1.0 * 1 ; U_I hermitien : False
+  [ok] (iii) F = -Gamma4 S   (S = signe de sous-reseau (-1)^(s1+s2+s3)) : VRAI
+  [ok] (iii) variante de signe : F = +Gamma4 S : FAUX
+  [ok] (iii) S = phase x produit des six generateurs : VRAI
+  [ok] (iv) F Gamma5 commute avec Gamma5, A, B : VRAI
+  [ok] (iv) F Gamma5 anticommute avec Y_d et Gamma4 : VRAI
+  [ok] (iv) F Gamma5 hermitien, de carre 1 : VRAI
+  [ok] (v) Y_d et Gamma4 anticommutent avec U_I : VRAI
+Proposition « Flavour doubling » : commutant de {Gamma5, Y_d}
+  [ok] dimension du commutant = 4 : VRAI
+  [ok] 1, Gamma4 A, Gamma4 B, AB commutent avec Gamma5 et Y_d et sont independants (=> M_2(C)) : VRAI
+Theoreme BBH / Proposition « staggered »
+  [ok] H(k)^2 = sum_d (tf^2 + tc^2 + 2 tf tc cos k_d) (20 tirages) : VRAI
+  [ok] H(K) = sqrt3 (tf - tc) Gamma5, K = (pi, pi, pi) : VRAI
+Choix D-C3 / structure reelle J_lat = Gamma5 A B . K
+  [ok] J_lat^2 = -1 sur l'octet (U conj(U) = -1) : VRAI
+  [ok] J X_d J^-1 = +X_d, J Y_d J^-1 = +Y_d, J Gamma4 J^-1 = +Gamma4 : VRAI
+  [ok] J (F Gamma5) J^-1 = -F Gamma5 (terme de gout nu : change de signe, comme les termes impairs habilles ?) : VRAI
+Proposition « Insertion O_phi »
+  [ok] (i) O_phi hermitien, de carre 1 : VRAI
+  [ok] (i) O_phi anticommute avec Y_d, Gamma4, F ; commute avec Gamma5 : VRAI
+  [ok] (ii) J_lat O_phi J_lat^-1 = +O_phi : VRAI
+  [ok] (vi) O_0 ne commute ni n'anticommute avec les X_d : VRAI
+       detail (O_0 contre X_1, X_2, X_3) : commute [False, False, True] ; anticommute [False, False, False]
+       detail (O_{0.4} contre X_d)        : commute [False, False, False] ; anticommute [False, False, False]
+Proposition « The angle phi »
+  [ok] (i) U_theta O_phi U_theta^-1 = O_{phi + 2 theta} ou O_{phi - 2 theta} (U_theta = exp(i theta F)) : VRAI
+       signe : phi + 2 theta
+  [ok] (i) O_phi = O_0 (cos phi - i sin phi F) : VRAI
+  [ok] (i) variante : O_phi = O_0 (cos phi + i sin phi F) : FAUX
+  [ok] (i) F commute avec la partie isotrope (Gamma5, Y_d, Gamma4, F Gamma5) : VRAI
+Proposition « No mass through Gamma5 x D_F »
+  [ok] [Gamma5, F] = 0 (l'insertion Gamma5 x D_F conserve le gout) : VRAI
+
+VERDICT : 35 / 35 lignes conformes a l'attendu

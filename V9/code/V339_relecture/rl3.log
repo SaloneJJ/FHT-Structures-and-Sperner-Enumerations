@@ -1,0 +1,9 @@
+N=2 θ=0.3 : |G H_alt G − H_K,σσ′| max = 2.00e+00 ; cellules concernées : [0] (profondeurs [0])
+   spectres complets : écart max 1.001e-01 ; 6 plus petits |E| alt [0.09688 0.15272 0.6563  0.71495 0.75656 0.76502] ; K,σσ′ [0.09814 0.14389 0.74349 0.75304 0.75929 0.76925]
+N=2 θ=2.0 : |G H_alt G − H_K,σσ′| max = 2.00e+00 ; cellules concernées : [0] (profondeurs [0])
+   spectres complets : écart max 1.133e-01 ; 6 plus petits |E| alt [0.49855 0.66148 0.90542 0.93688 0.95909 0.96319] ; K,σσ′ [0.49864 0.64108 0.88685 0.89478 0.94307 0.96126]
+N=3 θ=0.3 : |G H_alt G − H_K,σσ′| max = 2.00e+00 ; cellules concernées : [0] (profondeurs [0])
+   24 valeurs propres près de 0 : écart max 6.362e-02
+N=3 θ=2.0 : |G H_alt G − H_K,σσ′| max = 2.00e+00 ; cellules concernées : [0] (profondeurs [0])
+   24 valeurs propres près de 0 : écart max 3.209e-02
+champ nul (q = 0, θ = 0), ω = σσ′ : |U conj(H_+) U⁻¹ + H_−| = 8.9e-16 (J_lat envoie le secteur γ_F = +1 sur −(secteur −1) : relation KO-1 de V331 conservée sur l'arbre)

@@ -1,0 +1,53 @@
+=== contrôle de non-régression GJ (s13 = 0.0220, orientation 0, pas 5°)
+  s12 ∈ [0.2688, 0.3740] (A2 : [0.269, 0.374]) ; s23 ∈ [0.4933, 0.5097] (A2 : [0.493, 0.510]) ; |δ| ∈ [68.5, 111.6] (A2 : [68.5, 111.6])
+  non-régression : OK
+  orientation échangée : s23 ∈ [0.4903, 0.5067], δ ∈ [-111.5, 111.5]
+  diagnostic CP-conjugué dans orientation 0 : distance max = 0.00 (unités : 1e-3 en s², degrés en δ)
+
+######## yes NO (minimum de l'ordre m = 0.000 au-dessus du minimum global)
+  TM1 exact (s12=0.3180, s23=0.5, δ=-90°) : χ²=8.96 (3 ddl) p=0.0298 ≈2.2σ en tension [contrôle B : 6.67] ; rel. global 8.96
+  TM1 seul : min en s23=0.4650, δ=-98.7° : χ²=4.20 (2 ddl) p=0.123 ≈1.5σ compatible [contrôle B : 4.30]
+    coût de (M3′) = 4.77 (1 ddl, p=0.029) ; rapport χ²(TM1 seul)/χ²(TM1 exact) = 0.47
+    prédiction Δχ² ≤ min+1 : s23 ∈ [0.453, 0.477], δ ∈ [np.int64(-1)] signe(s), |δ| ∈ [95.7, 101.8]°
+    prédiction Δχ² ≤ min+4 : s23 ∈ [0.443, 0.495], δ ∈ [np.int64(-1)] signe(s), |δ| ∈ [91.2, 104.5]°
+    sensibilité s13 = 0.02191 : χ²min(TM1 seul) = 4.36 ; TM1 exact = 9.14
+    sensibilité s13 = 0.02305 : χ²min(TM1 seul) = 4.06 ; TM1 exact = 8.82
+  GJ : min en α=42.5°, branche 0, orientation 1 : s12=0.3097 s23=0.4902 δ=-89.0° : χ²=5.58 (2 ddl) p=0.0613 ≈1.9σ compatible [contrôle B : 4.06]
+    prédiction Δχ² ≤ min+1 : α ∈ [36, 50]°, s12 ∈ [0.3026, 0.3156], s23 ∈ [0.4902, 0.4936], δ ∈ [-97.8, -86.1]°
+    prédiction Δχ² ≤ min+4 : α ∈ [28, 206]°, s12 ∈ [0.2959, 0.3224], s23 ∈ [0.4902, 0.5098], δ ∈ [-100.5, -81.7]°
+
+######## yes IO (minimum de l'ordre m = 5.908 au-dessus du minimum global)
+  TM1 exact (s12=0.3179, s23=0.5, δ=-90°) : χ²=4.78 (3 ddl) p=0.189 ≈1.3σ compatible [contrôle B : 4.81] ; rel. global 10.69
+  TM1 seul : min en s23=0.5500, δ=-77.5° : χ²=1.96 (2 ddl) p=0.376 ≈0.9σ compatible [contrôle B : 1.96]
+    coût de (M3′) = 2.82 (1 ddl, p=0.0929) ; rapport χ²(TM1 seul)/χ²(TM1 exact) = 0.41
+    prédiction Δχ² ≤ min+1 : s23 ∈ [0.534, 0.562], δ ∈ [np.int64(-1)] signe(s), |δ| ∈ [74.3, 81.7]°
+    prédiction Δχ² ≤ min+4 : s23 ∈ [0.453, 0.573], δ ∈ [np.int64(-1)] signe(s), |δ| ∈ [71.4, 101.8]°
+    sensibilité s13 = 0.02205 : χ²min(TM1 seul) = 2.13 ; TM1 exact = 4.95
+    sensibilité s13 = 0.02319 : χ²min(TM1 seul) = 1.81 ; TM1 exact = 4.64
+  GJ : min en α=44.0°, branche 0, orientation 1 : s12=0.3082 s23=0.4902 δ=-88.5° : χ²=2.54 (2 ddl) p=0.281 ≈1.1σ compatible [contrôle B : 2.55]
+    prédiction Δχ² ≤ min+1 : α ∈ [36, 202]°, s12 ∈ [0.3025, 0.3150], s23 ∈ [0.4902, 0.5098], δ ∈ [-97.3, -82.9]°
+    prédiction Δχ² ≤ min+4 : α ∈ [29, 210]°, s12 ∈ [0.2958, 0.3219], s23 ∈ [0.4902, 0.5098], δ ∈ [-100.1, -80.0]°
+
+######## off NO (minimum de l'ordre m = 0.000 au-dessus du minimum global)
+  TM1 exact (s12=0.3180, s23=0.5, δ=-90°) : χ²=10.15 (3 ddl) p=0.0173 ≈2.4σ en tension [contrôle B : 7.67] ; rel. global 10.15
+  TM1 seul : min en s23=0.4600, δ=-100.0° : χ²=5.12 (2 ddl) p=0.0773 ≈1.8σ compatible [contrôle B : 5.52]
+    coût de (M3′) = 5.03 (1 ddl, p=0.0249) ; rapport χ²(TM1 seul)/χ²(TM1 exact) = 0.50
+    prédiction Δχ² ≤ min+1 : s23 ∈ [0.451, 0.476], δ ∈ [np.int64(-1)] signe(s), |δ| ∈ [96.1, 102.5]°
+    prédiction Δχ² ≤ min+4 : s23 ∈ [0.440, 0.494], δ ∈ [np.int64(-1)] signe(s), |δ| ∈ [91.6, 105.3]°
+    sensibilité s13 = 0.02191 : χ²min(TM1 seul) = 5.28 ; TM1 exact = 10.32
+    sensibilité s13 = 0.02305 : χ²min(TM1 seul) = 4.98 ; TM1 exact = 10.01
+  GJ : min en α=42.5°, branche 0, orientation 1 : s12=0.3097 s23=0.4902 δ=-89.0° : χ²=6.80 (2 ddl) p=0.0334 ≈2.1σ en tension [contrôle B : 5.03]
+    prédiction Δχ² ≤ min+1 : α ∈ [36, 50]°, s12 ∈ [0.3026, 0.3156], s23 ∈ [0.4902, 0.4936], δ ∈ [-97.8, -86.1]°
+    prédiction Δχ² ≤ min+4 : α ∈ [28, 206]°, s12 ∈ [0.2955, 0.3224], s23 ∈ [0.4902, 0.5098], δ ∈ [-100.7, -81.7]°
+
+######## off IO (minimum de l'ordre m = 1.486 au-dessus du minimum global)
+  TM1 exact (s12=0.3179, s23=0.5, δ=-90°) : χ²=5.44 (3 ddl) p=0.142 ≈1.5σ compatible [contrôle B : 5.63] ; rel. global 6.93
+  TM1 seul : min en s23=0.5550, δ=-76.2° : χ²=1.82 (2 ddl) p=0.403 ≈0.8σ compatible [contrôle B : 1.82]
+    coût de (M3′) = 3.63 (1 ddl, p=0.0569) ; rapport χ²(TM1 seul)/χ²(TM1 exact) = 0.33
+    prédiction Δχ² ≤ min+1 : s23 ∈ [0.539, 0.568], δ ∈ [np.int64(-1)] signe(s), |δ| ∈ [72.9, 80.3]°
+    prédiction Δχ² ≤ min+4 : s23 ∈ [0.455, 0.580], δ ∈ [np.int64(-1)] signe(s), |δ| ∈ [69.6, 101.4]°
+    sensibilité s13 = 0.02205 : χ²min(TM1 seul) = 1.98 ; TM1 exact = 5.61
+    sensibilité s13 = 0.02319 : χ²min(TM1 seul) = 1.67 ; TM1 exact = 5.30
+  GJ : min en α=44.0°, branche 0, orientation 1 : s12=0.3082 s23=0.4902 δ=-88.5° : χ²=3.16 (2 ddl) p=0.206 ≈1.3σ compatible [contrôle B : 3.32]
+    prédiction Δχ² ≤ min+1 : α ∈ [36, 202]°, s12 ∈ [0.3021, 0.3150], s23 ∈ [0.4902, 0.5098], δ ∈ [-97.3, -82.9]°
+    prédiction Δχ² ≤ min+4 : α ∈ [29, 210]°, s12 ∈ [0.2958, 0.3219], s23 ∈ [0.4902, 0.5098], δ ∈ [-100.1, -79.9]°

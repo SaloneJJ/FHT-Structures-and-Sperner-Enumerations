@@ -1,0 +1,9 @@
+(a) N = 3 ; fractions de volume (niveau fin) : pres des aretes de la racine 0.156, pres des faces 0.422, interieur 0.422
+   4 plus bas modes (|E| = 0.0773, 0.1020) : niveau fin 0.52-0.53 ; dans le niveau fin : aretes 0.336-0.346, faces 0.434-0.437, interieur 0.221-0.227
+   modes suivants (|E| = 0.22 a 0.31) : aretes 0.288-0.311, faces 0.426-0.430, interieur 0.262-0.285
+(b) mu = 0, N = 2 : plus petites |E| : 0.6945 0.6945 0.7171 0.7171 0.8645 0.8645 0.8989 0.8989 ...
+(b) mu = 0, N = 3 : plus petites |E| : 0.4938 0.4938 0.5131 0.5131 0.6053 0.6053 0.6228 0.6228 ...
+(c) commutant de {G5, G4, Y_1, Y_2, Y_3} : dimension 4 ; le terme de gout FG n'y est pas
+(c) invariants sous O (rotations de 90 degres) dans ce commutant : dimension 1 (scalaires seulement)
+    FG invariant sous les rotations de 90 degres : [False, False, False]
+(d) 288-cellules (2O) : degres des aretes : {8: 144, 3: 192}

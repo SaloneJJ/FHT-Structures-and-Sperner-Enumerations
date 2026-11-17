@@ -1,0 +1,23 @@
+
+== S_spin_min (controle) : sommets 21, facettes 32, Betti Z/2 {1: 4}, |Aut| (aut_order) = 48, stabilisateur dans GL(2,3) : 48, ordres {1: 1, 2: 13, 3: 8, 4: 6, 6: 8, 8: 12}
+   irreductibles (degre, z, type pour la structure tordue par det, multiplicite dans 4_spin) :
+     [z=-1] degre 2 type H            multiplicite -0.0
+     [z=-1] degre 2 type H            multiplicite -0.0
+     [z=-1] degre 4 type H            multiplicite 1.0
+   secteur spinoriel (z = -1) de R^det[Aut] : H + H + M2(H)
+   4_spin|Aut = 4(H)
+
+== P : appariement {l0,l2}|{l3,l4} : sommets 21, facettes 34, Betti Z/2 {1: 6}, |Aut| (aut_order) = 16, stabilisateur dans GL(2,3) : 16, ordres {1: 1, 2: 5, 4: 6, 8: 4}
+   irreductibles (degre, z, type pour la structure tordue par det, multiplicite dans 4_spin) :
+     [z=-1] degre 2 type H            multiplicite 1.0
+     [z=-1] degre 2 type H            multiplicite 1.0
+   secteur spinoriel (z = -1) de R^det[Aut] : H + H
+   4_spin|Aut = 2(H) + 2(H)
+
+== M : droite l0 marquee : sommets 22, facettes 33, Betti Z/2 {1: 4}, |Aut| (aut_order) = 12, stabilisateur dans GL(2,3) : 12, ordres {1: 1, 2: 7, 3: 2, 6: 2}
+   irreductibles (degre, z, type pour la structure tordue par det, multiplicite dans 4_spin) :
+     [z=-1] degre 1 type C (apparie)  multiplicite 1.0 (partenaire 2)
+     [z=-1] degre 1 type C (apparie)  multiplicite 1.0 (partenaire 0)
+     [z=-1] degre 2 type H            multiplicite 1.0
+   secteur spinoriel (z = -1) de R^det[Aut] : M1(C) + H
+   4_spin|Aut = 1(C) + 1(C) + 2(H)

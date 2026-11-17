@@ -1,0 +1,6 @@
+ω=-1 μ=1 γF=1 N=3
+  fenêtre 0.196 ; flot net par couche : [-0.028 -0.594 -0.288 +0.904] ; total -0.005 ; saturées 0
+  flot brut par couche : [0.028 0.594 0.290 1.081] ; temps 272 s
+ω=-1 μ=-1 γF=1 N=3
+  fenêtre 0.196 ; flot net par couche : [-0.028 -0.594 -0.288 +0.904] ; total -0.005 ; saturées 0
+  flot brut par couche : [0.028 0.594 0.290 1.081] ; temps 161 s

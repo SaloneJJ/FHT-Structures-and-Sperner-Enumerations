@@ -1,0 +1,21 @@
+   dimension 32768, bloc 160, mémoire estimée ≈ 0.4 Go
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:38: RuntimeWarning: divide by zero encountered in matmul
+  Q, _ = np.linalg.qr(Y1); AQ = A(Q); G = Q.conj().T @ AQ; G = (G + G.conj().T) / 2
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:38: RuntimeWarning: overflow encountered in matmul
+  Q, _ = np.linalg.qr(Y1); AQ = A(Q); G = Q.conj().T @ AQ; G = (G + G.conj().T) / 2
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:38: RuntimeWarning: invalid value encountered in matmul
+  Q, _ = np.linalg.qr(Y1); AQ = A(Q); G = Q.conj().T @ AQ; G = (G + G.conj().T) / 2
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:39: RuntimeWarning: divide by zero encountered in matmul
+  th, W = np.linalg.eigh(G); X = Q @ W; AX = AQ @ W
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:39: RuntimeWarning: overflow encountered in matmul
+  th, W = np.linalg.eigh(G); X = Q @ W; AX = AQ @ W
+~/Desktop/2026FHT/FHT_29 Final/00_RETOURS_FABLE/tests/P5_courbure_oreiller/P5_wilson_iter.py:39: RuntimeWarning: invalid value encountered in matmul
+  th, W = np.linalg.eigh(G); X = Q @ W; AX = AQ @ W
+   itération  1 : convergées 0/120, résidu max 8.6e-02, |E| voulue max 0.6481, borne a -> |E| 0.7331, λmax 39.1, 4 s
+   itération  2 : convergées 0/120, résidu max 5.6e-03, |E| voulue max 0.6394, borne a -> |E| 0.7000, λmax 39.1, 8 s
+   itération  3 : convergées 14/120, résidu max 6.2e-04, |E| voulue max 0.6391, borne a -> |E| 0.6917, λmax 39.1, 12 s
+   itération  4 : convergées 76/120, résidu max 2.6e-05, |E| voulue max 0.6391, borne a -> |E| 0.6888, λmax 39.1, 16 s
+   itération  5 : convergées 112/120, résidu max 1.1e-06, |E| voulue max 0.6391, borne a -> |E| 0.6887, λmax 39.1, 19 s
+   itération  6 : convergées 120/120, résidu max 8.0e-08, |E| voulue max 0.6391, borne a -> |E| 0.6886, λmax 39.1, 23 s
+ESSAI N = 4 : 112 valeurs comparées, écart max 1.0e-14 -> VALIDÉ
+   durée 23 s en 6 itérations ; estimation grossière pour N = 5 : 8 min (×8 en taille, ×2,5 en itérations), à prendre avec prudence

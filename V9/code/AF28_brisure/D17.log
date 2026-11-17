@@ -1,0 +1,14 @@
+== K26 : |Aut| = 13824 ; generateurs 16 dont 5 purement gauches ; Betti {3: 12, 4: 36, 5: 36, 6: 12} (2 s)
+   ordre zero : True ; dim (sur F_p) des D admissibles (gamma-impair, J'D = DJ', ordre un) = 279  (259 s)
+   rang par bloc de degres (pair -> impair) : {'4->3': 99, '4->5': 108, '6->3': 36, '6->5': 36}
+== X_comp : |Aut| = 13824 ; generateurs 14 dont 4 purement gauches ; Betti {3: 12, 4: 36, 5: 36, 6: 12} (8 s)
+   ordre zero : True ; dim (sur F_p) des D admissibles (gamma-impair, J'D = DJ', ordre un) = 279  (187 s)
+   rang par bloc de degres (pair -> impair) : {'4->3': 99, '4->5': 108, '6->3': 36, '6->5': 36}
+== X_chi : |Aut| = 1990656 ; generateurs 24 dont 9 purement gauches ; Betti {4: 24, 5: 48, 6: 24} (10 s)
+   ordre zero : True ; dim (sur F_p) des D admissibles (gamma-impair, J'D = DJ', ordre un) = 144  (386 s)
+   rang par bloc de degres (pair -> impair) : {'4->5': 72, '6->5': 72}
+== X_SM : |Aut| = 1990656 ; generateurs 26 dont 10 purement gauches ; Betti {4: 48, 5: 48} (7 s)
+   ordre zero : True ; dim (sur F_p) des D admissibles (gamma-impair, J'D = DJ', ordre un) = 0  (755 s)
+== X_LR' : |Aut| = 3538944 ; generateurs 26 dont 10 purement gauches ; Betti {4: 48, 5: 48} (10 s)
+   ordre zero : True ; dim (sur F_p) des D admissibles (gamma-impair, J'D = DJ', ordre un) = 0  (720 s)
+== X_PS' : |Aut| = 88473600 ; generateurs 34 dont 14 purement gauches ; Betti {4: 48, 5: 48} (10 s)

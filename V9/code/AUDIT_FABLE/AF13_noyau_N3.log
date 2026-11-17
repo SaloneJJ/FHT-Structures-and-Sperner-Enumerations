@@ -1,0 +1,12 @@
+Reproduction du noyau de la chaleur a N = 3 (14/11/2026, machine de JJ, copie hors dossier ; 32 points de Bloch, m = 6, ~ 14 s par point)
+modes nuls a k0 = 0 : 4 (2 du Weyl, 2 de la racine)
+retrait de 2 modes nuls (comme l'article) :
+  t     10     15     20     30     40     60
+  n_eff 2.154  2.095  2.071  2.048  2.036  2.026      (article : identique)
+  d_s   3.21   3.09   3.07   3.05   3.03   3.01       (article : identique)
+  ajustement n_eff = alpha + beta/t + gamma t sur [10, 40] : alpha 1.9717, beta 1.7583, gamma 5.0e-4 ; |gamma| 40/alpha = 0.011   (article : 1.972, 1.76, 5.4e-4, 0.011)
+sans retrait (diagnostic) : n_eff 2.179 2.142 2.143 2.181 2.240 2.400 ; d_s 3.17 3.02 2.96 2.86 2.76 2.54
+Insertion (N = 2, m = 8, epsilon_D = 0.1), z_ins / 2 z_0 aux t = 5, 10, 20, 40, 100 :
+  O = A Y1Y2Y3 : 0.9517 0.9049 0.8188 0.6703 0.3679  (article 0.9517 0.9049 0.8187 0.6703 0.3679 ; exp(-t eps^2) 0.9512 0.9048 0.8187 0.6703 0.3679)
+  O = Gamma_5  : 0.9980 0.9968 0.9968 0.9970 0.9988  (article 0.9980 0.9970 0.9972 0.9977 0.9993 : ecart <= 7e-4, selon le traitement des modes nuls ; meme lecture : pas de masse)
+VERDICT : A3 Prop. « Heat kernel » (N = 3) et Prop. « Insertion » reproduites.

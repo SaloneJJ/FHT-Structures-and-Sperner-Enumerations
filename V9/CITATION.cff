@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below, together with the articles it supports."
+title: "Fractal Hyper-Trees: programs and logs of the trilogy (version 9)"
+authors:
+  - family-names: Salone
+    given-names: Jean-Jacques
+    orcid: "https://orcid.org/0009-0001-1033-5694"
+    affiliation: "CRREF (EA 4538), University of the Antilles; LIM, University of La Réunion"
+license: MIT
+repository-code: "https://github.com/SaloneJJ/FHT-Structures-and-Sperner-Enumerations"
+version: "V9"
+date-released: "2026-11-17"

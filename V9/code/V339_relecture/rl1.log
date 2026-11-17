@@ -1,0 +1,25 @@
+anticommutation des 6 générateurs {G5, α1..3, A, B} : 6.226022328555488e-12
+mes X_d = M_d + M_d^T = Xg de V335 : True ; mes Y_d = i(M_d - M_d^T) = Yg : True
+mon G5 = ΣXg/√3 : False
+jauge K : α_d au cône = [-1. -1. -1.] × Y_d ; masse au cône (t_f=0,4) = -1.0392 Γ5(V335)
+jauge alternée (cône en Γ) : α_d au cône = [-1. -1. -1.] × Y_d ; masse au cône (t_f=0,4) = -1.0392 Γ5(V335)
+modèle emprunté : ε = tr(Γ1Γ2Γ3Γ4Γ5)/4 = -1.0
+  [F, G5] = 2.0e-17   {F, G5} = 2.0e+00
+  [F, α1] = 4.4e-12   {F, α1} = 1.2e+00
+  [F, Γ4] = 1.5e-11   {F, Γ4} = 2.0e+00
+  [F, A] = 1.6e+00   {F, A} = 5.6e-17
+  [F, B] = 1.4e+00   {F, B} = 1.1e-16
+mon Γ5 = −ΣXg/√3 (signe opposé à V335, sans effet) : True ; mon F = F de V335 : True
+orientation (V335) : ε_natif = tr(α1α2α3 Γ4 Γ5)/8 avec α_d = −Y_d (cinétique effectif), Γ4 = G4, Γ5 = G5 de V335 : -1.0
+conventions V335 : |F + Γ4 S| = 2.4514267852689627e-17 ; |F − Γ4 S| = 1.1547005383792517
+FΓ5 (V335) = i D P_antipode, D diagonale de signes : True [-1. -1.  1.  1. -1. -1.  1.  1.] ; D réel, D² = 1 : True
+conventions V335 : |FΓ5 + Γ4 S Γ5| = 1.4153319143736948e-17
+S = (Cl(6) chiralité) ? S ∝ X1X2X3Y1Y2Y3 : 1j
+t_f = t_c : produit des sauts sur les plaquettes élémentaires : {np.float64(-1.0)} (−1 = flux π)
+spectre de H(K) à t_f = t_c : [-0. -0. -0. -0.  0.  0.  0.  0.]
+H(K+q)² - |q|² 1 (ordre 2) : 1.5913308489077377e-08
+J² = U Ū = -1.0 ; U Ū ∝ 1 : True
+impairs (α_d, Γ4) : U Z̄ U⁻¹ = +Z : [True, True, True, True]
+pairs (Γ5, A, B, X_d) : U Z̄ U⁻¹ = +Z : [True, True, True, True, True, True]
+J FΓ5 J⁻¹ = −FΓ5 (terme nu) : True
+les sauts réels de l'arbre (T, S pondéré par ω = ±1, sans champ de fond) sont invariants par K : la même J vaut sur l'arbre (vérifié numériquement dans rl2, θ = 0, q = 0).

@@ -1,0 +1,21 @@
+== K26 : REPRIS de AF29_K26.npz : N = 47168, Tr D^2 = 585632, ker = 96, trou = 0.999713 (x54)
+== K26_V25 : REPRIS de AF29_K26_V25.npz : N = 58176, Tr D^2 = 701728, ker = 96, trou = 0.837722 (x126)
+== X_comp : REPRIS de AF29_X_comp.npz : N = 134720, Tr D^2 = 1568544, ker = 96, trou = 0.160944 (x96)
+== X_chi : REPRIS de AF29_X_chi.npz : N = 92140, Tr D^2 = 1060280, ker = 96, trou = 0.411262 (x96)
+== X_SM : REPRIS de AF29_X_SM.npz : N = 61420, Tr D^2 = 688056, ker = 96, trou = 0.553306 (x48)
+== X_LR' : REPRIS de AF29_X_LRp.npz : N = 80620, Tr D^2 = 904376, ker = 96, trou = 1.000000 (x452)
+== X_PS' : REPRIS de AF29_X_PSp.npz : N = 76588, Tr D^2 = 866008, ker = 96, trou = 1.000000 (x416)
+   [solveur] X_grand deg 3 : n = 8388, k = 400, 160 s
+   [solveur] X_grand deg 4 : n = 14346, k = 400, 40 s
+   [solveur] X_grand deg 5 : n = 15044, k = 400, 44 s
+   [solveur] X_grand deg 6 : n = 10020, k = 400, 149 s
+== X_grand : N = 57132, Tr D^2 = 646360, ker = 96, trou = 1.000000 (x416), 10 plus basses : [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] (398 s)
+   S_Lambda (chaleur) - 96 aux Lambda^2 = r * trou : {0.05: '8.5755e-07 (borne 1.1e-04)', 0.1: '1.8994e-02 (borne 2.5e+00)', 0.2: '2.9132e+00 (borne 3.7e+02)', 0.5: '6.4654e+01 (borne 7.5e+03)'}
+
+=== bilan basse energie (chaleur, S - 96 = sum exp(-lambda/Lambda^2) sur le spectre bas)
+   Lambda^2 = 0.0080 : ordre ['K26', 'X_grand', "X_PS'", "X_LR'", 'K26_V25', 'X_SM', 'X_chi', 'X_comp']   {'K26': '1.574e-52', 'K26_V25': '8.486e-44', 'X_comp': '1.979e-07', 'X_chi': '8.095e-21', 'X_SM': '6.609e-29', "X_LR'": '4.861e-52', "X_PS'": '4.474e-52', 'X_grand': '4.474e-52'}
+   Lambda^2 = 0.0161 : ordre ['K26', 'X_grand', "X_PS'", "X_LR'", 'K26_V25', 'X_SM', 'X_chi', 'X_comp']   {'K26': '1.505e-25', 'K26_V25': '3.488e-21', 'X_comp': '4.358e-03', 'X_chi': '1.202e-09', 'X_SM': '5.633e-14', "X_LR'": '4.687e-25', "X_PS'": '4.314e-25', 'X_grand': '4.314e-25'}
+   Lambda^2 = 0.0322 : ordre ['K26', 'X_grand', "X_PS'", "X_LR'", 'K26_V25', 'X_SM', 'X_chi', 'X_comp']   {'K26': '4.656e-12', 'K26_V25': '7.130e-10', 'X_comp': '6.468e-01', 'X_chi': '4.769e-04', 'X_SM': '1.644e-06', "X_LR'": '1.456e-11', "X_PS'": '1.340e-11', 'X_grand': '1.340e-11'}
+   Lambda^2 = 0.0805 : ordre ['K26', 'X_grand', "X_PS'", "X_LR'", 'K26_V25', 'X_SM', 'X_chi', 'X_comp']   {'K26': '5.784e-04', 'K26_V25': '4.895e-03', 'X_comp': '1.306e+01', 'X_chi': '1.172e+00', 'X_SM': '5.133e-02', "X_LR'": '1.838e-03', "X_PS'": '1.694e-03', 'X_grand': '1.672e-03'}
+   Lambda^2 = 0.1609 : ordre ['K26', 'X_grand', "X_PS'", "X_LR'", 'K26_V25', 'X_SM', 'X_chi', 'X_comp']   {'K26': '2.887e-01', 'K26_V25': '1.083e+00', 'X_comp': '3.959e+01', 'X_chi': '1.816e+01', 'X_SM': '2.438e+00', "X_LR'": '9.539e-01', "X_PS'": '8.834e-01', 'X_grand': '8.534e-01'}
+   grand Lambda (volume N) : ordre ['K26', 'X_grand', 'K26_V25', 'X_SM', "X_PS'", "X_LR'", 'X_chi', 'X_comp'] {'K26': 47168, 'K26_V25': 58176, 'X_comp': 134720, 'X_chi': 92140, 'X_SM': 61420, "X_LR'": 80620, "X_PS'": 76588, 'X_grand': 57132}

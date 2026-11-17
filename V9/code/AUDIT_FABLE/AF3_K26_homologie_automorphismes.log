@@ -1,0 +1,8 @@
+Pieces (Proposition « Homology of the pieces ») :
+  A : 10 sommets, 12 faces maximales, Betti reduits [1, 2, 1, 0, 0]  (attendu 1, 2, 1 en degres 0, 1, 2) ; |Aut(A)| = 24 (attendu 24)
+  B : 6 sommets, 6 faces maximales, Betti reduits [0, 4, 0, 0, 0]  (attendu 4 en degre 1) ; |Aut(B)| = 120 (attendu 120 : S_5 sur Z)
+K26 = K^(4) (Definition A2)  sommets 26, aretes 716, simplexes 47167, Betti F2 [0, 0, 0, 12, 36, 36, 12, 0, 0, 0, 0, 0], Betti F_65521 [0, 0, 0, 12, 36, 36, 12, 0, 0, 0, 0, 0], |Aut| = 13824  (1 s)  -> CONFORME
+V37_FHT_K26volmin.json       sommets 26, aretes 542, simplexes 7489, Betti F2 [0, 0, 0, 12, 36, 36, 12, 0], Betti F_65521 [0, 0, 0, 12, 36, 36, 12, 0], |Aut| = 13824  (1 s)  -> CONFORME
+V36_FHT_K26vol.json          sommets 26, aretes 750, simplexes 8523, Betti F2 [0, 0, 0, 12, 36, 36, 12, 0], Betti F_65521 [0, 0, 0, 12, 36, 36, 12, 0], |Aut| = 13824  (0 s)  -> CONFORME
+V32_FHT_K26etoile.json       sommets 26, aretes 490, simplexes 31059, Betti F2 [0, 0, 0, 12, 36, 36, 12, 0, 0, 0], Betti F_65521 [0, 0, 0, 12, 36, 36, 12, 0, 0, 0], |Aut| = 13824  (0 s)  -> CONFORME
+VERDICT : conforme

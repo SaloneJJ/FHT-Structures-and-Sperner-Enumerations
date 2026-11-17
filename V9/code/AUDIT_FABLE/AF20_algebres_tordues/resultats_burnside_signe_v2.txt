@@ -1,0 +1,51 @@
+S4 : |G| = 24, classes 5, rang Burnside 5, rang Lambda+- 5
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  2  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  3  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  3  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+S5 : |G| = 120, classes 7, rang Burnside 7, rang Lambda+- 7
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  5  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  5  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  4  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  6  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  4  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+GL(2,3) : |G| = 48, classes 8, rang Burnside 7, rang Lambda+- 7
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  4  (FS +0, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  2  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  3  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  4  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  3  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+Q8 : |G| = 8, classes 5, rang Burnside 5, rang Lambda+- 5
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  4  (FS -1, Schur 2)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+SL(2,3) : |G| = 24, classes 7, rang Burnside 5, rang Lambda+- 5
+   dim_Q  2  (FS +0, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  3  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  4  (FS +0, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  4  (FS -1, Schur 2)   permutations seules : True    avec signes Lambda+- : True
+Q8 x C3 : |G| = 24, classes 15, rang Burnside 10, rang Lambda+- 10
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  2  (FS +0, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  2  (FS +0, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  2  (FS +0, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  2  (FS +0, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  4  (FS +0, Schur 1)   permutations seules : False   avec signes Lambda+- : False
+   dim_Q  4  (FS -1, Schur 2)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+Dic12 = C3 x| C4 : |G| = 12, classes 6, rang Burnside 5, rang Lambda+- 5
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  4  (FS -1, Schur 2)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  2  (FS +0, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  1  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True
+   dim_Q  2  (FS +1, Schur 1)   permutations seules : True    avec signes Lambda+- : True

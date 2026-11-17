@@ -1,0 +1,12 @@
+θ = 0.0000 (pas 0) : LOBPCG 2 états |E| < ε (233 s) ; ARPACK-SA 2 (58 s, résidu max 1.5e-01) ; plus petits |E| : LOBPCG [1.0000e-05 1.0000e-05 2.2021e-01 2.2021e-01 3.0965e-01 3.0965e-01] ; ARPACK [1.0000e-05 1.0000e-05 2.1466e-01 2.2565e-01 3.0867e-01 3.1063e-01]
+    E -0.000005 / -0.000005   pente +0.18738 / +0.18735   poids couche fine 0.5002 / 0.4936
+    E +0.000005 / +0.000005   pente +0.18738 / +0.19020   poids couche fine 0.5002 / 0.5011
+    Σ pente × poids(couche fine) : LOBPCG +0.18745 ; ARPACK +0.18780
+θ = 0.0982 (pas 1) : LOBPCG 2 états |E| < ε (82 s) ; ARPACK-SA 2 (36 s, résidu max 6.0e-12) ; plus petits |E| : LOBPCG [0.00614 0.04287 0.22029 0.2203  0.30971 0.30971] ; ARPACK [0.00614 0.04287 0.22029 0.2203  0.30971 0.30971]
+    E -0.006136 / -0.006136   pente -0.06250 / -0.06250   poids couche fine 0.9999 / 0.9999
+    E +0.042872 / +0.042872   pente +0.43557 / +0.43557   poids couche fine 0.0004 / 0.0004
+    Σ pente × poids(couche fine) : LOBPCG -0.06231 ; ARPACK -0.06231
+θ = 0.1963 (pas 2) : LOBPCG 2 états |E| < ε (83 s) ; ARPACK-SA 2 (34 s, résidu max 1.1e-11) ; plus petits |E| : LOBPCG [0.01227 0.08542 0.22055 0.22055 0.30989 0.3099 ] ; ARPACK [0.01227 0.08542 0.22055 0.22055 0.30989 0.3099 ]
+    E -0.012272 / -0.012272   pente -0.06250 / -0.06250   poids couche fine 0.9999 / 0.9999
+    E +0.085416 / +0.085416   pente +0.43060 / +0.43060   poids couche fine 0.0004 / 0.0004
+    Σ pente × poids(couche fine) : LOBPCG -0.06231 ; ARPACK -0.06231

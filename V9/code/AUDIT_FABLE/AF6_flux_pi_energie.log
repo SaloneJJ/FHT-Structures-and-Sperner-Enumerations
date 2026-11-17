@@ -1,0 +1,9 @@
+Cube des enfants : energie minimale selon le nombre de faces a flux pi : {0: -6.0, 2: -5.806, 4: -6.472, 6: -6.928}
+   6 faces a pi : -6.928 (article : -6.928)  ok
+   4 faces a pi : -6.472 (article : -6.472)  ok
+   0 faces a pi : -6.000 (article : -6.000)  ok
+   minimum global sur les 2^12 configurations : -6.928, atteint pour [6] faces a pi   ok
+Amas ouvert 4^3 : flux pi -66.00 (article -66.0) ; flux nul -55.96 (article -55.96)  ok
+Amas ouvert 6^3 : flux pi -234.71 (article -234.71) ; flux nul -197.61 (article -197.61)  ok
+Reseau periodique 8^3 : flux pi -1.190 par site (article -1.190) ; flux nul -0.989 (article -0.989)  ok
+VERDICT : conforme

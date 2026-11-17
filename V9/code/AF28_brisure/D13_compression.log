@@ -1,0 +1,10 @@
+controle du code D11 : homologie isotypique de S_chi sous Borel : [((1, 0), np.int64(1)), ((1, 2), np.int64(1)), ((2, 3), np.int64(1))] ; irr [(0, 1, -1), (1, 1, 1), (2, 1, -1), (3, 2, -1), (4, 1, 1), (5, 2, 1)]
+(a) |AGL(1,3)| = 6 ; Borel = {+-I} x AGL : True ; det = signe de la permutation des 3 droites non marquees : True
+R^sgn[S3]                    |G|=     6 classes=  3 : H + M1(C)   (dim 6)
+R^det[Borel] (tous secteurs) |G|=    12 classes=  6 : H + H + M1(C) + M1(C)   (dim 12)
+(c) S_chi + pendant sur t6 : |Aut| = 6 ; Betti {1: 2, 2: 2}
+Traceback (most recent call last):
+  File "<stdin>", line 25, in <module>
+  File "<string>", line 22, in tools
+KeyError: (1, 0, 5, 7, 6, 2, 4, 3)
+(c) homologie de S_chi + pendant sur t_a sous AGL(1,3) = S3 : [(1, '1', 1), (1, 'sgn', 1), (2, 'E', 1)]

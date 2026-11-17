@@ -1,0 +1,11 @@
+  accord avec clifford() de V331 (|tr G5 G5ref|/8, |tr FG FGref|/8) : 1.0 1.0
+C3 (x,y,z)->(y,z,x) | Σ sin: 6.1e-16 ; Σ cos: 1.2e-15 ; Γ4 vert: 1.7e-16 ; Wilson vert: 1.3e-15 ; μFΓ5: 1.3e-15
+   U O U† dans (O_A, O_B) : [[-0.5    0.866]
+ [-0.866 -0.5  ]]
+C3 inverse | Σ sin: 1.2e-15 ; Σ cos: 2.3e-15 ; Γ4 vert: 2.1e-16 ; Wilson vert: 2.7e-15 ; μFΓ5: 2.0e-15
+   U O U† dans (O_A, O_B) : [[-0.5   -0.866]
+ [ 0.866 -0.5  ]]
+C2z | Σ sin: 7.2e-16 ; Σ cos: 1.4e-15 ; Γ4 vert: 1.0e-01 ; Wilson vert: 2.0e-01 ; μFΓ5: 1.4e-15
+   U O U† dans (O_A, O_B) : [[1. 0.]
+ [0. 1.]]
+S (vertical) : valeurs distinctes non nulles : [0.353553+0.j]

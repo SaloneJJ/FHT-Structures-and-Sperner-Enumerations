@@ -1,0 +1,10 @@
+sommets 13 aretes 16 Betti Z/2 {1: 4} |Aut| 384
+decomposition de H1 en irreductibles de GL(2,3) (degre, valeur du centre, multiplicite) :
+   degre 4  z -> -1.0  mult (1+0j)
+X : Betti {1: 4} | X' : sommets 205 facettes 296 Betti {1: 4}
+|Aut(X')| = 48 (attendu 48 = |GL(2,3)|)
+384
+B4 trivial                   |G|=   384 classes= 20 : M1(R) + M1(R) + M1(R) + M1(R) + M2(R) + M2(R) + M3(R) + M3(R) + M3(R) + M3(R) + M4(R) + M4(R) + M4(R) + M4(R) + M6(R) + M6(R) + M6(R) + M6(R) + M8(R) + M8(R)   (dim 384)
+B4 sgn(S4)                   |G|=   384 classes= 20 : H + H + M1(C) + M1(C) + M3(C) + M3(C) + M4(C) + M4(C) + M4(H) + M4(H) + M6(C) + M6(C)   (dim 384)
+B4 (-1)^neg                  |G|=   384 classes= 20 : M1(C) + M1(C) + M2(C) + M3(C) + M3(C) + M4(C) + M4(C) + M6(C) + M6(R) + M6(R) + M8(C)   (dim 384)
+B4 sgn*neg                   |G|=   384 classes= 20 : M1(C) + M1(C) + M2(C) + M3(C) + M3(C) + M4(C) + M4(C) + M6(C) + M6(R) + M6(R) + M8(C)   (dim 384)

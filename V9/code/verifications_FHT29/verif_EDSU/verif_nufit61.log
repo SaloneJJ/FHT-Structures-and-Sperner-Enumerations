@@ -1,0 +1,44 @@
+144289.txt: Normal Ordering ; min Δχ²(T23) = 0.000 en sin²θ23 = 0.470
+196693.txt: Inverted Ordering ; min Δχ²(T23) = 1.486 en sin²θ23 = 0.555
+460581.txt: Inverted Ordering ; min Δχ²(T23) = 5.908 en sin²θ23 = 0.550
+506694.txt: Normal Ordering ; min Δχ²(T23) = 0.000 en sin²θ23 = 0.470
+
+NO : ['144289.txt', '506694.txt']  IO : ['196693.txt', '460581.txt']
+  196693.txt: min Δχ² IO (T23 1D) = 1.486
+  460581.txt: min Δχ² IO (T23 1D) = 5.908
+  144289.txt: min Δχ² NO (T23 1D) = 0.000, argmin sin²θ23 = 0.470
+  506694.txt: min Δχ² NO (T23 1D) = 0.000, argmin sin²θ23 = 0.470
+
+Identification (Δm²3ℓ) : TByes = (506694.txt, 460581.txt) ; TBoff = (144289.txt, 196693.txt)
+
+### TByes (IC24 + SK-atm) — Normal Ordering (506694.txt) ; offset de l'ordre (min Δχ² dans ce fichier) = 0.000
+  1D T23 : Δχ²(0.5) = 2.12 [rel. ordre 2.12] compatible ; min GJ [0.493,0.510] = 1.56 [1.56]
+  1D DCP : Δχ²(+90°) = 14.79 [14.79] défavorisé ; Δχ²(−90°) = 2.72 [2.72] compatible
+           min DCP en δ = -150°
+  1D T12 : Δχ²(0.318) = 1.84 [1.84] compatible (rel. ordre)
+  2D T23/DCP : (0.5, +90°) = 23.68 [23.68] défavorisé (>3σ) ; (0.5, −90°) = 7.12 [7.12] en tension (≤3σ) ; GJ rectangle min = 5.56 [5.56] compatible (≤2σ)
+  2D T12/DCP : courbe GJ min = 2.51 [2.51] compatible (≤2σ) en (sin²θ12, δ) = (0.308, -95.4°) ; TM1 (0.318, ±90°) min = 4.55 [4.55] compatible (≤2σ)
+
+### TByes (IC24 + SK-atm) — Inverted Ordering (460581.txt) ; offset de l'ordre (min Δχ² dans ce fichier) = 5.908
+  1D T23 : Δχ²(0.5) = 8.88 [rel. ordre 2.97] en tension ; min GJ [0.493,0.510] = 8.59 [2.68]
+  1D DCP : Δχ²(+90°) = 59.51 [53.60] défavorisé ; Δχ²(−90°) = 5.93 [0.03] en tension
+           min DCP en δ = -85°
+  1D T12 : Δχ²(0.318) = 7.76 [1.85] compatible (rel. ordre)
+  2D T23/DCP : (0.5, +90°) = 75.85 [69.94] défavorisé (>3σ) ; (0.5, −90°) = 8.88 [2.97] en tension (≤3σ) ; GJ rectangle min = 8.59 [2.68] en tension (≤3σ)
+  2D T12/DCP : courbe GJ min = 5.98 [0.07] compatible (≤2σ) en (sin²θ12, δ) = (0.308, -92.3°) ; TM1 (0.318, ±90°) min = 7.78 [1.87] en tension (≤3σ)
+
+### TBoff (IC23, sans SK-atm) — Normal Ordering (144289.txt) ; offset de l'ordre (min Δχ² dans ce fichier) = 0.000
+  1D T23 : Δχ²(0.5) = 2.12 [rel. ordre 2.12] compatible ; min GJ [0.493,0.510] = 1.52 [1.52]
+  1D DCP : Δχ²(+90°) = 11.18 [11.18] défavorisé ; Δχ²(−90°) = 3.73 [3.73] compatible
+           min DCP en δ = -155°
+  1D T12 : Δχ²(0.318) = 1.84 [1.84] compatible (rel. ordre)
+  2D T23/DCP : (0.5, +90°) = 20.95 [20.95] défavorisé (>3σ) ; (0.5, −90°) = 8.31 [8.31] en tension (≤3σ) ; GJ rectangle min = 6.75 [6.75] en tension (≤3σ)
+  2D T12/DCP : courbe GJ min = 3.49 [3.49] compatible (≤2σ) en (sin²θ12, δ) = (0.308, -95.4°) ; TM1 (0.318, ±90°) min = 5.55 [5.55] compatible (≤2σ)
+
+### TBoff (IC23, sans SK-atm) — Inverted Ordering (196693.txt) ; offset de l'ordre (min Δχ² dans ce fichier) = 1.486
+  1D T23 : Δχ²(0.5) = 5.06 [rel. ordre 3.57] en tension ; min GJ [0.493,0.510] = 4.76 [3.27]
+  1D DCP : Δχ²(+90°) = 49.38 [47.90] défavorisé ; Δχ²(−90°) = 1.73 [0.25] compatible
+           min DCP en δ = -75°
+  1D T12 : Δχ²(0.318) = 3.33 [1.85] compatible (rel. ordre)
+  2D T23/DCP : (0.5, +90°) = 68.28 [66.80] défavorisé (>3σ) ; (0.5, −90°) = 5.11 [3.63] compatible (≤2σ) ; GJ rectangle min = 4.80 [3.31] compatible (≤2σ)
+  2D T12/DCP : courbe GJ min = 1.81 [0.33] compatible (≤2σ) en (sin²θ12, δ) = (0.310, -91.6°) ; TM1 (0.318, ±90°) min = 3.58 [2.09] compatible (≤2σ)

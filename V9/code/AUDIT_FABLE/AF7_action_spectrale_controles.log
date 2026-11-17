@@ -1,0 +1,20 @@
+(1) Niveau plat : z(t) = 8 [e^{-2t} I_0(2t)]^3
+    n_eff(40) = 8.038 (article 8.04) ; d_s(10) = 3.040 (article 3.04)
+    tore 64^3, t = 40 : n_eff = 8.038
+(2) Weyl de reseau (2 composantes, E^2 = 4 sum sin^2(k/2) au voisinage du cone ; ici modele de reference E^2 = sum sin^2 k, 8 cones dont 1 retenu)
+    t = 15 : n_eff d'une espece a 2 composantes avec dispersion 4 sin^2(k/2) : 2.026  (limite continue : 2 ; correction ~ 3/(16 t) = 0.013)
+    t = 25 : n_eff d'une espece a 2 composantes avec dispersion 4 sin^2(k/2) : 2.015  (limite continue : 2 ; correction ~ 3/(16 t) = 0.007)
+    t = 40 : n_eff d'une espece a 2 composantes avec dispersion 4 sin^2(k/2) : 2.009  (limite continue : 2 ; correction ~ 3/(16 t) = 0.005)
+(3) Traces de jauge d'une generation (Weyl gauches : Q, u^c, d^c, L, e^c, nu^c)
+    Tr T^2_SU(3) = 2, Tr T^2_SU(2) = 2, Tr Y^2 = 10/3  (article : 2, 2, 10/3) ; Tr Y^2 / Tr T^2 = 5/3 = 5/3
+(4) Anomalies
+    {'U(1)^3': '0', 'grav-U(1)': '0', 'SU(2)^2 U(1)': '0', 'SU(3)^2 U(1)': '0', 'SU(3)^3': '0'} ; doublets de SU(2) par generation : 4 (pair : pas d'anomalie de Witten) ; 16 Weyl par generation (Z/16)
+(5) Couplages a une boucle, entrees a M_Z : alpha^-1 = 127.95, sin^2 theta_W = 0.2312, alpha_s = 0.118 ; b = (41/10, -19/6, -7)
+    Lambda = 1e+16 GeV : alpha_i^-1 = 37.9, 45.9, 44.5 (article 37.9, 45.9, 44.5)  ok ; alpha_1/alpha_2 - 1 = +21 %, alpha_3/alpha_2 - 1 = +3 % ; rapports des inverses : -17 %, -3 % ; article : -17 %, -3 %
+    Lambda = 1e+17 GeV : alpha_i^-1 = 36.4, 47.0, 47.1 (article 36.4, 47.0, 47.1)  ok ; alpha_1/alpha_2 - 1 = +29 %, alpha_3/alpha_2 - 1 = -0 % ; rapports des inverses : -23 %, +0 % ; article : -23 %, +0 %
+    Lambda = 2.4e+18 GeV : alpha_i^-1 = 34.3, 48.6, 50.6 (article 34.3, 48.6, 50.6)  ok ; alpha_1/alpha_2 - 1 = +42 %, alpha_3/alpha_2 - 1 = -4 % ; rapports des inverses : -29 %, +4 % ; article : -29 %, +4 %
+    Lambda = 1.22e+19 GeV : alpha_i^-1 = 33.3, 49.5, 52.4 (article 33.3, 49.5, 52.4)  ok ; alpha_1/alpha_2 - 1 = +49 %, alpha_3/alpha_2 - 1 = -6 % ; rapports des inverses : -33 %, +6 % ; article : -33 %, +6 %
+    => les deux dernieres colonnes de la table de l'article sont alpha_1^-1/alpha_2^-1 - 1 et alpha_3^-1/alpha_2^-1 - 1 : EN-TETE A CORRIGER (les valeurs sont justes pour les rapports des inverses)
+(6) Facteur du temps (frequences de Matsubara fermioniques sur S^1_beta)
+    sum_n e^(-t w_n^2) = 5.98413421 ; beta / sqrt(4 pi t) = 5.98413421
+VERDICT : conforme

@@ -1,0 +1,33 @@
+lun. 16 nov. 2026 08:19:14 AST
+V1 : Wilson sur le tore (8 cubes periodiques) contre le spectre analytique
+   N = 1 : ecart max 1.8e-14
+   N = 2 : ecart max 9.5e-14
+V3 : classes de signes satisfaisant le principe pour les spineurs (sigma_a sigma_b)
+   1 classe(s) ; classe de D2 parmi elles : True
+V2 : hermiticite, symetrie +-, jauge (signe global de B)
+   N = 1 : herm 0.0e+00 ; +- 7.1e-15 ; jauge 0.0e+00 ; natif herm 3.4e-17 ; plus petites |E| Wilson [1.9082 1.9082 1.9082 1.9082 1.9082 1.9082 1.9082 1.9082]
+   N = 2 : herm 0.0e+00 ; +- 2.2e-14 ; jauge 0.0e+00 ; natif herm 3.4e-17 ; plus petites |E| Wilson [0.8933 0.8933 0.8933 0.8933 0.8933 0.8933 0.8933 0.8933]
+lun. 16 nov. 2026 08:19:15 AST
+P5 : N = 3 (L = 8), classe de signes {(0, -1): 1, (0, 1): -1, (1, -1): -1, (1, 1): 1, (2, -1): 1, (2, 1): -1}
+   Wilson : dimension 4096, 192 modes, |E| max 1.4210 (5 s)
+   natif : dimension 9360, 96 modes dont 96 survivants du niveau fin, |E| max 1.0930 (13 s)
+   fenetre de comparaison : |E| < 0.5817 (0,75 E_bulk = 0.5817 ; bornes atteintes Wilson 1.4210, natif 1.0930)
+   niveaux Wilson (|E|, mult.) : [(np.float64(0.43637), 8)]
+   niveaux natif  (|E|, mult.) : [(np.float64(0.42885), 4)]
+   trace de la chaleur (t, z_natif, z_Wilson, rapport, borne de troncature relative) :
+        5.0      3.6745      5.6481   0.6506  1.8e-01
+       10.0      0.7875      1.3887   0.5671  3.4e-02
+       15.0      0.2700      0.4791   0.5637  6.3e-03
+       20.0      0.1030      0.1794   0.5743  1.2e-03
+       25.0      0.0405      0.0687   0.5901  2.1e-04
+       30.0      0.0161      0.0265   0.6084  3.9e-05
+       35.0      0.0064      0.0102   0.6281  7.2e-06
+       40.0      0.0026      0.0039   0.6487  1.3e-06
+       45.0      0.0010      0.0015   0.6701  2.4e-07
+       50.0      0.0004      0.0006   0.6923  4.5e-08
+       55.0      0.0002      0.0002   0.7152  8.3e-09
+       60.0      0.0001      0.0001   0.7388  1.5e-09
+FIN (13 s)
+lun. 16 nov. 2026 08:19:29 AST
+P5 : N = 4 (L = 16), classe de signes {(0, -1): 1, (0, 1): -1, (1, -1): -1, (1, 1): 1, (2, -1): 1, (2, 1): -1}
+   Wilson : dimension 32768, 192 modes, |E| max 0.7147 (105 s)

@@ -1,0 +1,4 @@
+  accord avec clifford() de V331 (|tr G5 G5ref|/8, |tr FG FGref|/8) : 1.0 1.0
+=== V335 [unif] : N = 3, m_tot = 0.0, μ = 1.0, γ_F = 1, q = 1.0, 64 pas ; dim 4680 ; herm 3.4e-17
+  fenêtre 0.196 ; flot net par couche : [-0.135 +0.423 +0.022 -0.435] ; total -0.125 ; saturées 0
+  flot brut par couche : [2.194 0.891 0.407 0.660] ; temps 454 s

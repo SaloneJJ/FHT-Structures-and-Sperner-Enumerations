@@ -1,0 +1,6 @@
+=== V339/rl2 : N=3 jauge=alt ω=1 m_tot=0.0 μ=1.0 γ_F=-1 conv=cos t_f=1.0 pas=64 ; dim 4680 ; herm 3.4e-17
+  [box   ] flot net par couche : [-0.027 -0.575 -0.275 +0.943] ; total +0.066 ; couche fine +0.9435
+  [box/2 ] flot net par couche : [-0.031 -0.615 -0.286 +0.908] ; total -0.024 ; couche fine +0.9081
+  [box*2 ] flot net par couche : [-0.024 -0.607 -0.338 +0.942] ; total -0.028 ; couche fine +0.9416
+  [gauss ] flot net par couche : [-0.028 -0.574 -0.273 +0.875] ; total +0.000 ; couche fine +0.8753
+  brut (box) : [0.027 0.575 0.278 1.042] ; max états dans la fenêtre 2 ; temps 830 s

@@ -1,0 +1,8 @@
+14/11 08:04 debut P4_N3_256 : python3 V336_FHT_flot.py 3 0 1 1 256 1 unif 1.0
+14/11 09:39 fin   P4_N3_256 (code 0)
+14/11 09:39 debut P1_N4_eps0.0 : python3 V338_FHT_flot.py 4 0 1 1 64 1 unif 0.0
+14/11 10:39 fin   P1_N4_eps0.0 (code 0)
+14/11 10:39 debut P1_N4_eps0.2 : python3 V338_FHT_flot.py 4 0 1 1 64 1 unif 0.2
+14/11 11:44 fin   P1_N4_eps0.2 (code 0)
+14/11 11:44 debut P4_N4_128 : python3 V338_FHT_flot.py 4 0 1 1 128 1 unif 1.0
+14/11 13:10 fin   P4_N4_128 (code 0)

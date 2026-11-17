@@ -1,0 +1,64 @@
+AF24 -- verification du theoreme des holonomies (version 2, 14/11/2026, soir).
+L1  : 48 elements de O_h ; G5 invariant, FG -> sgn(pi) FG, G4 -> det(g) G4 : True
+L1' : bord du 4-cube : FG change de signe a 16/48 passages ; flip <=> permutation impaire : True
+
+== bord du 4-cube, niveau 0 (AF23) : 16 sommets, 32 aretes, 24 faces, 8 cubes
+   degres des aretes : {3: 32}
+   Betti mod 2 : (1, 0, 0, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 8 ; |Omega| (aretes impaires) = 32 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : False (controle par propagation des signes : False)
+   parois de bord Omega : 2^7 choix ; aire minimale 8 faces, atteinte par 3 choix ; |W0| = 8
+
+== bord du 4-cube, niveau 1 (AF23) : 80 sommets, 208 aretes, 192 faces, 64 cubes
+   degres des aretes : {3: 64, 4: 144}
+   Betti mod 2 : (1, 0, 0, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 32 ; |Omega| (aretes impaires) = 64 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : False (controle par propagation des signes : False)
+
+== bord du 4-cube, niveau 2 (AF23) : 544 sommets, 1568 aretes, 1536 faces, 512 cubes
+   degres des aretes : {3: 128, 4: 1440}
+   Betti mod 2 : (1, 0, 0, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 128 ; |Omega| (aretes impaires) = 128 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : False (controle par propagation des signes : False)
+
+== S^3 oreiller (double du bloc 1^3), niveau 0 : 8 sommets, 12 aretes, 6 faces, 2 cubes
+   degres des aretes : {2: 12}
+   Betti mod 2 : (1, 0, 0, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 0 ; |Omega| (aretes impaires) = 0 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : True (controle par propagation des signes : True)
+   Omega = 0 : obstruction residuelle = [W0] dans H2(M ; Z/2) ; [W0] = 0 : True
+
+== S^3 oreiller (double du bloc 2^3), niveau 1 : 28 sommets, 60 aretes, 48 faces, 16 cubes
+   degres des aretes : {2: 24, 4: 36}
+   Betti mod 2 : (1, 0, 0, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 0 ; |Omega| (aretes impaires) = 0 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : True (controle par propagation des signes : True)
+   Omega = 0 : obstruction residuelle = [W0] dans H2(M ; Z/2) ; [W0] = 0 : True
+
+== S^3 oreiller (double du bloc 4^3), niveau 2 : 152 sommets, 408 aretes, 384 faces, 128 cubes
+   degres des aretes : {2: 48, 4: 360}
+   Betti mod 2 : (1, 0, 0, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 0 ; |Omega| (aretes impaires) = 0 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : True (controle par propagation des signes : True)
+   Omega = 0 : obstruction residuelle = [W0] dans H2(M ; Z/2) ; [W0] = 0 : True
+
+== tore T^3 (3^3) : 27 sommets, 81 aretes, 81 faces, 27 cubes
+   degres des aretes : {4: 81}
+   Betti mod 2 : (1, 3, 3, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 0 ; |Omega| (aretes impaires) = 0 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : True (controle par propagation des signes : True)
+   Omega = 0 : obstruction residuelle = [W0] dans H2(M ; Z/2) ; [W0] = 0 : True
+
+== variete plate a quart de tour G4 (3^3) : 27 sommets, 81 aretes, 81 faces, 27 cubes
+   degres des aretes : {4: 81}
+   Betti mod 2 : (1, 2, 2, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 9 ; |Omega| (aretes impaires) = 0 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : False (controle par propagation des signes : False)
+   Omega = 0 : obstruction residuelle = [W0] dans H2(M ; Z/2) ; [W0] = 0 : False
+
+== variete plate a quart de tour G4 (4^3) : 64 sommets, 192 aretes, 192 faces, 64 cubes
+   degres des aretes : {4: 192}
+   Betti mod 2 : (1, 2, 2, 1) ; liens de sommets = spheres : True
+   |W0| (faces a permutation impaire) = 16 ; |Omega| (aretes impaires) = 0 ; L2 dW0 = Omega : True
+   masse de gout sans paroi : False (controle par propagation des signes : False)
+   Omega = 0 : obstruction residuelle = [W0] dans H2(M ; Z/2) ; [W0] = 0 : False

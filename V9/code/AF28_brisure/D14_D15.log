@@ -1,0 +1,6 @@
+D14 : 8 aretes subdivisees ; Betti {1: 4} ; |Aut| = 16
+    homologie isotypique sous SD16 (degre, irreductible, mult) : [((1, 4), np.int64(1)), ((1, 5), np.int64(1))] ; irr [(0, 1, 1), (1, 1, 1), (2, 2, 1), (3, 1, 1), (4, 2, -1), (5, 2, -1), (6, 1, 1)]
+    X_PS' : sommets 72, Betti {4: 48, 5: 48}, |Aut| = 88473600 (14 s)
+    X_LR' : sommets 74, Betti {4: 48, 5: 48}, |Aut| = 3538944 (13 s)
+D15 base (S + pendant sur t_a) : [(1, '1', 1), (1, 'E', 1), (1, 'sgn', 1)] ; |Aut| = 6
+D15 : 7223 testes ; succes : 0 (65 s)

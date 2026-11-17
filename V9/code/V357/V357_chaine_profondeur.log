@@ -1,0 +1,41 @@
+=== R340 : motifs η par niveau, μ = r = 1, m_K = 0 (R-unif), secteur s = +1
+N=3 η=++++ : 2 modes nuls ; f=-1 c=-1 prof=[0.0, 0.0, 0.0, 1.0] | f=-1 c=+1 prof=[1.0, 0.0, 0.0, 0.0]
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.0), np.float64(-1.0), np.float64(-1.0)] ; 2 plus petites |E| par goût : {1: [1.255, 1.255], -1: [0.0, 0.0]}
+N=3 η=+++- : 4 modes nuls ; f=+1 c=-1 prof=[0.0, 0.0, 0.0, 1.0] | f=+1 c=+1 prof=[0.01, 0.05, 0.19, 0.75] | f=-1 c=-1 prof=[0.0, 0.0, 0.8, 0.2] | f=-1 c=+1 prof=[1.0, 0.0, 0.0, 0.0]
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.012), np.float64(-1.059), np.float64(-0.447)] ; 2 plus petites |E| par goût : {1: [0.0, 0.0], -1: [0.0, 0.0]}
+N=3 η=++-+ : 4 modes nuls ; f=+1 c=-1 prof=[0.0, 0.0, 0.8, 0.2] | f=+1 c=+1 prof=[0.05, 0.19, 0.76, 0.0] | f=-1 c=-1 prof=[0.0, 0.0, 0.0, 1.0] | f=-1 c=+1 prof=[1.0, 0.0, 0.0, 0.0]
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.048), np.float64(-1.238), np.float64(-1.2)] ; 2 plus petites |E| par goût : {1: [0.0, 0.0], -1: [0.0, 0.0]}
+N=3 η=++-- : 4 modes nuls ; f=+1 c=-1 prof=[0.0, 0.0, 0.0, 1.0] | f=+1 c=+1 prof=[0.05, 0.19, 0.76, 0.0] | f=-1 c=-1 prof=[0.0, 0.76, 0.19, 0.05] | f=-1 c=+1 prof=[1.0, 0.0, 0.0, 0.0]
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.048), np.float64(-0.476), np.float64(-1.048)] ; 2 plus petites |E| par goût : {1: [0.0, 0.0], -1: [0.0, 0.0]}
+N=3 η=+-++ : 4 modes nuls ; f=+1 c=-1 prof=[0.0, 0.76, 0.19, 0.05] | f=+1 c=+1 prof=[0.2, 0.8, 0.0, 0.0] | f=-1 c=-1 prof=[0.0, 0.0, 0.0, 1.0] | f=-1 c=+1 prof=[1.0, 0.0, 0.0, 0.0]
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.2), np.float64(-1.238), np.float64(-1.048)] ; 2 plus petites |E| par goût : {1: [0.0, 0.0], -1: [0.0, 0.0]}
+N=3 η=+-+- : 4 modes nuls ; f=+1 c=-1 prof=[0.0, 0.0, 0.0, 1.0] | f=+1 c=+1 prof=[0.2, 0.8, 0.0, 0.0] | f=-1 c=-1 prof=[0.0, 0.0, 0.8, 0.2] | f=-1 c=+1 prof=[1.0, 0.0, 0.0, 0.0]
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.2), np.float64(-2.0), np.float64(-1.2)] ; 2 plus petites |E| par goût : {1: [0.0, 0.0], -1: [0.0, 0.0]}
+N=3 η=+--+ : 4 modes nuls ; f=+1 c=-1 prof=[0.0, 0.0, 0.8, 0.2] | f=+1 c=+1 prof=[0.2, 0.8, 0.0, 0.0] | f=-1 c=-1 prof=[0.0, 0.0, 0.0, 1.0] | f=-1 c=+1 prof=[1.0, 0.0, 0.0, 0.0]
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.2), np.float64(-2.0), np.float64(-1.2)] ; 2 plus petites |E| par goût : {1: [0.0, 0.0], -1: [0.0, 0.0]}
+N=3 η=+--- : 4 modes nuls ; f=+1 c=-1 prof=[0.0, 0.0, 0.0, 1.0] | f=+1 c=+1 prof=[0.2, 0.8, 0.0, 0.0] | f=-1 c=-1 prof=[0.75, 0.19, 0.05, 0.01] | f=-1 c=+1 prof=[1.0, 0.0, 0.0, 0.0]
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-0.447), np.float64(-1.059), np.float64(-1.012)] ; 2 plus petites |E| par goût : {1: [0.0, 0.0], -1: [0.0, 0.0]}
+N=10 η=+++++++++++ : 2 modes nuls ; f=-1 c=-1 prof=10 | f=-1 c=+1 prof=0
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0)] ; 2 plus petites |E| par goût : {1: [1.057, 1.057], -1: [0.0, 0.0]}
+N=10 η=++++++++++- : 4 modes nuls ; f=+1 c=-1 prof=10 | f=+1 c=+1 prof=10 | f=-1 c=-1 prof=9 | f=-1 c=+1 prof=0
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.001), np.float64(-1.004), np.float64(-1.016), np.float64(-1.062), np.float64(-0.45)] ; 2 plus petites |E| par goût : {1: [0.0, 0.0], -1: [0.0, 0.0]}
+N=10 η=+++++++++-+ : 4 modes nuls ; f=+1 c=-1 prof=9 | f=+1 c=+1 prof=9 | f=-1 c=-1 prof=10 | f=-1 c=+1 prof=0
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.0), np.float64(-1.001), np.float64(-1.004), np.float64(-1.016), np.float64(-1.062), np.float64(-1.25), np.float64(-1.2)] ; 2 plus petites |E| par goût : {1: [0.0, 0.0], -1: [0.0, 0.0]}
+N=10 η=+-+-+-+-+-+ : 4 modes nuls ; f=+1 c=-1 prof=9 | f=+1 c=+1 prof=1 | f=-1 c=-1 prof=10 | f=-1 c=+1 prof=0
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.2), np.float64(-2.0), np.float64(-2.0), np.float64(-2.0), np.float64(-2.0), np.float64(-2.0), np.float64(-2.0), np.float64(-2.0), np.float64(-2.0), np.float64(-1.2)] ; 2 plus petites |E| par goût : {1: [0.0, 0.0], -1: [0.0, 0.0]}
+N=10 η=+++++------ : 4 modes nuls ; f=+1 c=-1 prof=10 | f=+1 c=+1 prof=5 | f=-1 c=-1 prof=4 | f=-1 c=+1 prof=0
+      chiralité nette de la région [k, N] pour k = 1..N : [np.float64(-1.001), np.float64(-1.004), np.float64(-1.015), np.float64(-1.062), np.float64(-0.5), np.float64(-1.062), np.float64(-1.016), np.float64(-1.004), np.float64(-1.001), np.float64(-1.0)] ; 2 plus petites |E| par goût : {1: [0.0, 0.0], -1: [0.0, 0.0]}
+
+=== R341 : chaîne N = 40, μ = r = t_c = 1, m_K = √3(ε − 1) ; mode de bord (région [30, 40]) : goût, chiralité, λ
+ε=+1.00 m_K=+0.000 λ_surv=0.000 λ_jum=2.000 : f=-1 (|E|=0.0e+00, chiralité ⟨c⟩=-1.000, λ mesuré=0.000)
+ε=+0.80 m_K=-0.346 λ_surv=0.346 λ_jum=1.654 : aucun mode de bord
+ε=+0.60 m_K=-0.693 λ_surv=0.693 λ_jum=1.307 : aucun mode de bord
+ε=+0.50 m_K=-0.866 λ_surv=0.866 λ_jum=1.134 : aucun mode de bord
+ε=+0.45 m_K=-0.953 λ_surv=0.953 λ_jum=1.047 : aucun mode de bord
+ε=+0.40 m_K=-1.039 λ_surv=1.039 λ_jum=0.961 : aucun mode de bord
+ε=+0.30 m_K=-1.212 λ_surv=1.212 λ_jum=0.788 : aucun mode de bord
+ε=+0.20 m_K=-1.386 λ_surv=1.386 λ_jum=0.614 : aucun mode de bord
+ε=+0.10 m_K=-1.559 λ_surv=1.559 λ_jum=0.441 : aucun mode de bord
+ε=+0.00 m_K=-1.732 λ_surv=1.732 λ_jum=0.268 : f=+1 (|E|=4.4e-18, chiralité ⟨c⟩=-0.000, λ mesuré=0.268)
+ε=-0.50 m_K=-2.598 λ_surv=2.598 λ_jum=0.598 : aucun mode de bord
+ε=-0.80 m_K=-3.118 λ_surv=3.118 λ_jum=1.118 : aucun mode de bord
