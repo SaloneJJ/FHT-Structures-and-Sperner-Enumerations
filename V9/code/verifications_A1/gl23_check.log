@@ -1,0 +1,3 @@
+|GL(2,3)| = 48 ; det = sign of the permutation of the 9 points : True
+R^det[GL(2,3)] = C + H + H + H + M2(H) + M3(C) ; dim 48
+#{g^2=I} = 14  f(I) = -10 ; #{g^2=-I} = 6  f(-I) = 6

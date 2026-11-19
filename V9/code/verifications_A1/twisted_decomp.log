@@ -1,0 +1,10 @@
+S4, sgn : (5, ['C', 'H', 'M3(C)'])
+S5, sgn : (7, ['C', 'M4(C)', 'M5(C)', 'M6(R)'])
+|S4 x S3| = 144
+S4xS3, eta = sgn_V = sgn4 x sgn3: dim Z = 15; C + C + M2(C) + M2(C) + M3(C) + M3(C) + M4(R) + M6(C); dim = 144; sector A_F: no
+S4xS3, eta = sgn4 x 1: dim Z = 15; C + C + H + H + M2(C) + M2(H) + M3(C) + M3(C) + M6(C); dim = 144; sector A_F: YES
+S4xS3, eta = 1 x sgn3: dim Z = 15; C + C + H + H + M2(C) + M2(H) + M3(C) + M3(C) + M3(H) + M3(H); dim = 144; sector A_F: YES
+S4xS3, eta = 1 (untwisted): dim Z = 15; R + R + R + R + M2(R) + M2(R) + M2(R) + M2(R) + M3(R) + M3(R) + M3(R) + M3(R) + M4(R) + M6(R) + M6(R); dim = 144; sector A_F: no
+S4xC2, eta = sgn_V = sgn4 x sgnC2: C + C + M2(C) + M3(C) + M3(C); dim = 48
+S4xC2, eta = sgn4 x 1: C + C + H + H + M3(C) + M3(C); dim = 48
+S4xC2, eta = 1 x sgnC2: C + C + M2(C) + M3(C) + M3(C); dim = 48

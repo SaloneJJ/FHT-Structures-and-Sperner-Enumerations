@@ -1,0 +1,3 @@
+S5: <chi_Lambda2W, chi_Lambda2W> = 1.0 ; dim = 6
+2O: <chi_3/2, chi_3/2> = 1.0
+degrees: 24 = a^2+b^2+c^2 with 1<=a<=b<=c : [(2, 2, 4)]

@@ -1,0 +1,56 @@
+v=1 $1$            |G|=   1 (r,c,h) (1, 0, 0) table (1,0,0) OK; 1 characters; sector A_F: none
+v=2 $C_2$          |G|=   2 (r,c,h) (2, 0, 0) table (2,0,0) OK; 2 characters; sector A_F: none
+v=3 $C_2$          |G|=   2 (r,c,h) (2, 0, 0) table (2,0,0) OK; 2 characters; sector A_F: none
+v=3 $S_3$          |G|=   6 (r,c,h) (3, 0, 0) table (3,0,0) OK; 2 characters; sector A_F: none
+v=4 $C_2$          |G|=   2 (r,c,h) (2, 0, 0) table (2,0,0) OK; 2 characters; sector A_F: none
+v=4 $C_2$          |G|=   2 (r,c,h) (2, 0, 0) table (2,0,0) OK; 2 characters; sector A_F: none
+v=4 $C_2^2$        |G|=   4 (r,c,h) (4, 0, 0) table (4,0,0) OK; 4 characters; sector A_F: none
+v=4 $S_3$          |G|=   6 (r,c,h) (3, 0, 0) table (3,0,0) OK; 2 characters; sector A_F: none
+v=4 $D_4$          |G|=   8 (r,c,h) (5, 0, 0) table (5,0,0) OK; 4 characters; sector A_F: none
+v=4 $S_4$          |G|=  24 (r,c,h) (5, 0, 0) table (5,0,0) OK; 2 characters; sector A_F: ['sgn_V: C + H + M3(C)']
+v=5 $1$            |G|=   1 (r,c,h) (1, 0, 0) table (1,0,0) OK; 1 characters; sector A_F: none
+v=5 $C_2$          |G|=   2 (r,c,h) (2, 0, 0) table (2,0,0) OK; 2 characters; sector A_F: none
+v=5 $C_2$          |G|=   2 (r,c,h) (2, 0, 0) table (2,0,0) OK; 2 characters; sector A_F: none
+v=5 $C_2^2$        |G|=   4 (r,c,h) (4, 0, 0) table (4,0,0) OK; 4 characters; sector A_F: none
+v=5 $C_2^2$        |G|=   4 (r,c,h) (4, 0, 0) table (4,0,0) OK; 4 characters; sector A_F: none
+v=5 $S_3$          |G|=   6 (r,c,h) (3, 0, 0) table (3,0,0) OK; 2 characters; sector A_F: none
+v=5 $D_4$          |G|=   8 (r,c,h) (5, 0, 0) table (5,0,0) OK; 4 characters; sector A_F: none
+v=5 $D_5$          |G|=  10 (r,c,h) (4, 0, 0) table (4,0,0) OK; 2 characters; sector A_F: none
+v=5 $D_6$          |G|=  12 (r,c,h) (6, 0, 0) table (6,0,0) OK; 4 characters; sector A_F: none
+v=5 $S_4$          |G|=  24 (r,c,h) (5, 0, 0) table (5,0,0) OK; 2 characters; sector A_F: ['sgn_V: C + H + M3(C)']
+v=5 $S_5$          |G|= 120 (r,c,h) (7, 0, 0) table (7,0,0) OK; 2 characters; sector A_F: none
+v=6 $1$            |G|=   1 (r,c,h) (1, 0, 0) table (1,0,0) OK; 1 characters; sector A_F: none
+v=6 $C_2$          |G|=   2 (r,c,h) (2, 0, 0) table (2,0,0) OK; 2 characters; sector A_F: none
+v=6 $C_2$          |G|=   2 (r,c,h) (2, 0, 0) table (2,0,0) OK; 2 characters; sector A_F: none
+v=6 $C_2$          |G|=   2 (r,c,h) (2, 0, 0) table (2,0,0) OK; 2 characters; sector A_F: none
+v=6 $C_3$          |G|=   3 (r,c,h) (1, 1, 0) table (1,1,0) OK; 1 characters; sector A_F: none
+v=6 $C_2^2$        |G|=   4 (r,c,h) (4, 0, 0) table (4,0,0) OK; 4 characters; sector A_F: none
+v=6 $C_2^2$        |G|=   4 (r,c,h) (4, 0, 0) table (4,0,0) OK; 4 characters; sector A_F: none
+v=6 $C_2^2$        |G|=   4 (r,c,h) (4, 0, 0) table (4,0,0) OK; 4 characters; sector A_F: none
+v=6 $C_2^2$        |G|=   4 (r,c,h) (4, 0, 0) table (4,0,0) OK; 4 characters; sector A_F: none
+v=6 $C_2^2$        |G|=   4 (r,c,h) (4, 0, 0) table (4,0,0) OK; 4 characters; sector A_F: none
+v=6 $C_4$          |G|=   4 (r,c,h) (2, 1, 0) table (2,1,0) OK; 2 characters; sector A_F: none
+v=6 $C_6$          |G|=   6 (r,c,h) (2, 2, 0) table (2,2,0) OK; 2 characters; sector A_F: none
+v=6 $S_3$          |G|=   6 (r,c,h) (3, 0, 0) table (3,0,0) OK; 2 characters; sector A_F: none
+v=6 $S_3$          |G|=   6 (r,c,h) (3, 0, 0) table (3,0,0) OK; 2 characters; sector A_F: none
+v=6 $C_2^3$        |G|=   8 (r,c,h) (8, 0, 0) table (8,0,0) OK; 8 characters; sector A_F: none
+v=6 $C_2^3$        |G|=   8 (r,c,h) (8, 0, 0) table (8,0,0) OK; 8 characters; sector A_F: none
+v=6 $D_4$          |G|=   8 (r,c,h) (5, 0, 0) table (5,0,0) OK; 4 characters; sector A_F: none
+v=6 $D_4$          |G|=   8 (r,c,h) (5, 0, 0) table (5,0,0) OK; 4 characters; sector A_F: none
+v=6 $D_4$          |G|=   8 (r,c,h) (5, 0, 0) table (5,0,0) OK; 4 characters; sector A_F: none
+v=6 $D_5$          |G|=  10 (r,c,h) (4, 0, 0) table (4,0,0) OK; 2 characters; sector A_F: none
+v=6 $D_6$          |G|=  12 (r,c,h) (6, 0, 0) table (6,0,0) OK; 4 characters; sector A_F: none
+v=6 $D_6$          |G|=  12 (r,c,h) (6, 0, 0) table (6,0,0) OK; 4 characters; sector A_F: none
+v=6 $D_4\times C_2$ |G|=  16 (r,c,h) (10, 0, 0) table (10,0,0) OK; 8 characters; sector A_F: none
+v=6 $A_4\times C_2$ |G|=  24 (r,c,h) (4, 2, 0) table (4,2,0) OK; 2 characters; sector A_F: none
+v=6 $S_4$          |G|=  24 (r,c,h) (5, 0, 0) table (5,0,0) OK; 2 characters; sector A_F: ['other: C + H + M3(C)']
+v=6 $S_4$          |G|=  24 (r,c,h) (5, 0, 0) table (5,0,0) OK; 2 characters; sector A_F: ['sgn_V: C + H + M3(C)']
+v=6 $S_3\times S_3$ |G|=  36 (r,c,h) (9, 0, 0) table (9,0,0) OK; 4 characters; sector A_F: none
+v=6 $S_4\times C_2$ |G|=  48 (r,c,h) (10, 0, 0) table (10,0,0) OK; 4 characters; sector A_F: ['other: C + C + H + H + M3(C) + M3(C)']
+v=6 $S_4\times C_2$ |G|=  48 (r,c,h) (10, 0, 0) table (10,0,0) OK; 4 characters; sector A_F: ['other: C + C + H + H + M3(C) + M3(C)']
+v=6 $A_5$          |G|=  60 (r,c,h) (5, 0, 0) table (5,0,0) OK; 1 characters; sector A_F: none
+v=6 $S_3\wr C_2$   |G|=  72 (r,c,h) (9, 0, 0) table (9,0,0) OK; 4 characters; sector A_F: none
+v=6 $S_5$          |G|= 120 (r,c,h) (7, 0, 0) table (7,0,0) OK; 2 characters; sector A_F: none
+v=6 $S_6$          |G|=720 : degrees 16,10,10,9,9,5,5,5,5,1,1 -> no degree 3, no sector A_F; R[G] (11,0,0) (S_n)
+
+(r,c,h) mismatches: 0; classes with a sector A_F for some eta: 6

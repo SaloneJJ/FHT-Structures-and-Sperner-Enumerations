@@ -33,3 +33,6 @@ See the declaration in each article.
 
 ## Licences
 Code: MIT (`LICENSE`). Logs, criteria, data and documentation: CC BY 4.0 (`LICENSE-docs.md`).
+
+## Revision of Article I (November 2026)
+`code/verifications_A1/`: independent checks added during the revision of Article I (literal test of the axioms for v ≤ 4; numerical Wedderburn decompositions of the twisted group algebras of the 54 classes (v,α), of S4×C2, S4×S3 and GL(2,3); character norms). See its README.

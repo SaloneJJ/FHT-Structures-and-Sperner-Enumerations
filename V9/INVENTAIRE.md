@@ -154,3 +154,4 @@ Noms cités en `\texttt{}` dans A1, A2, A3 (142 occurrences distinctes). Non rep
 | (dépendance de h0_test.py) | — | `fht_enum_small.py` | `FHT_21-2/05_code/code_v30/fht_enum_small.py` |
 | (dépendance de V87_FHT_stella.py) | — | `V86_FHT_cube.py` | `FHT_26/03_code/CalculCodes/V86_FHT_cube.py` |
 | A2 | `K_27_1021`, …, `K_36_44` | `V52_paysage_v5_f30.json.xz` (compressé xz) | `FHT_25/05_code/catalogues/V52_paysage_v5_f30.json` |
+| A1 (révision) | vérifications de la révision de l'article I | `verifications_A1/` (README, 5 scripts, journaux) | `FHT_29 Final Relu1/a_deposer_github/verifications_A1` |
