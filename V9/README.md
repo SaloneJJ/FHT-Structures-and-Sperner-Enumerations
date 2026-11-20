@@ -35,4 +35,4 @@ See the declaration in each article.
 Code: MIT (`LICENSE`). Logs, criteria, data and documentation: CC BY 4.0 (`LICENSE-docs.md`).
 
 ## Revision of Article I (November 2026)
-`code/verifications_A1/`: independent checks added during the revision of Article I (literal test of the axioms for v ≤ 4; numerical Wedderburn decompositions of the twisted group algebras of the 54 classes (v,α), of S4×C2, S4×S3 and GL(2,3); character norms). See its README.
+`code/verifications_A1/` (release v9.2): checks added during the revision of Article I. They cover the literal test of the axioms for v ≤ 4, the exhaustive enumeration of the moves and transition graphs for v ≤ 6 with restricted descents (`check_moves.py`), the census of the FHTs whose automorphism group contains S4 for v ≤ 7 (`census_s4.py`) and for v = 8 (nine of ten actions) and v = 9 (action 8+1) (`census_s4_big.py`), the separation signature of the 260 FHTs with v ≤ 5 (`sep_signature.py`), the numerical Wedderburn decompositions of the twisted group algebras (54 classes (v,α), S4×C2, S4×S3, GL(2,3)) and the character norms. See its README.

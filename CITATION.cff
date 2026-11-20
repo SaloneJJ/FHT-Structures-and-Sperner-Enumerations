@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-title: "FHT enumeration, symmetries and renormalized ultrametric"
+title: "Fractal Hyper-Trees: programs and logs"
 authors:
   - family-names: Salone
     given-names: Jean-Jacques
     orcid: "https://orcid.org/0009-0001-1033-5694"
-    affiliation: "CRREF (EA 4538), Université des Antilles"
-version: 4.0.0
-doi: 10.5281/zenodo.22948863
-date-released: 2026-09-24
+    affiliation: "CRREF (EA 4538), Université des Antilles; LIM, Université de La Réunion"
+version: v9.2
+doi: 10.5281/zenodo.22163670
+date-released: 2026-11-20
 license: MIT
 repository-code: "https://github.com/SaloneJJ/FHT-Structures-and-Sperner-Enumerations"
