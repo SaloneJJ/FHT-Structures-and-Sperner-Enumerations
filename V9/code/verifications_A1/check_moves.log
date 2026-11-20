@@ -1,0 +1,38 @@
+v=1: 1 classes by closure of the interior moves from the star (0s)
+v=2: 1 classes by closure of the interior moves from the star (0s)
+v=3: 4 classes by closure of the interior moves from the star (0s)
+v=4: 23 classes by closure of the interior moves from the star (0s)
+v=5: 231 classes by closure of the interior moves from the star (0s)
+v=6: 16947 classes by closure of the interior moves from the star (61s)
+expected 1, 1, 4, 23, 231, 16947
+[validity v<=5] moves: {'T2+': 218, 'T2-': 110, ('T1+', 0): 715, ('T1+', 1): 502, ('T1+', 2): 590, ('T1-', 0): 892, ('T1-', 1): 622, ('T1-', 2): 837}
+[validity v<=5] depth: {('T2-', '<='): 110, ('T2-', 'strict'): 64, ('T2+', '>='): 218, ('T2+', 'strict'): 140}
+[validity v<=5] failures: none
+[validity v=6 (exhaustive)] moves: {'T2+': 2048, 'T2-': 1227, ('T1+', 0): 136023, ('T1+', 1): 111110, ('T1+', 2): 104626, ('T1-', 0): 138219, ('T1-', 1): 113230, ('T1-', 2): 116042}
+[validity v=6 (exhaustive)] depth: {('T2-', '<='): 1227, ('T2-', 'strict'): 754, ('T2+', '>='): 2048, ('T2+', 'strict'): 1184}
+[validity v=6 (exhaustive)] failures: none
+(450s)
+Omega_1, v=2: additions 1, allowed removals 0, blocked removals 2, failures 0
+Omega_1, v=3: additions 9, allowed removals 3, blocked removals 9, failures 0
+Omega_1, v=4: additions 80, allowed removals 15, blocked removals 77, failures 0
+Omega_1, v=5: additions 1089, allowed removals 117, blocked removals 1038, failures 0
+Omega_1, v=6: additions 100947, allowed removals 1589, blocked removals 100093, failures 0
+degenerate: additions from F_1: 1 ; removals from St_2: 2
+classes 1..6: 17207, components with Omega_1 and the degenerate moves: 1
+classes 2..6: 17206, components without the degenerate moves: 1
+(497s)
+edge toggles, v=2: additions 0, deletions 0, classes where they differ from the moves: 0
+edge toggles, v=3: additions 4, deletions 4, classes where they differ from the moves: 0
+edge toggles, v=4: additions 46, deletions 51, classes where they differ from the moves: 0
+edge toggles, v=5: additions 883, deletions 947, classes where they differ from the moves: 0
+edge toggles, v=6: additions 138071, deletions 139446, classes where they differ from the moves: 0
+(539s)
+components, all moves: v=2: 1, v=3: 1, v=4: 1, v=5: 1, v=6: 1
+components, distance <= 1 from the root: v=2: 1, v=3: 1, v=4: 1, v=5: 1, v=6: 1
+components, root only: v=2: 1, v=3: 1, v=4: 2, v=5: 10, v=6: 131
+components, Theta_1 only: v=2: 1, v=3: 2, v=4: 5, v=5: 12, v=6: 33
+components, Theta_2 only: v=2: 1, v=3: 3, v=4: 15, v=5: 168, v=6: 16103
+moves from the class representatives with 2<=v<=6: {'T2-': 1337, 'T1+-': 723408, 'T2+': 2266}
+(619s)
+restricted descents (seed 2026, 3 per class, 2<=v<=6): 51618 descents, 377844 steps, failures: none
+total time 986s

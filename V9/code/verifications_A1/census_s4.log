@@ -1,0 +1,21 @@
+faithful actions of S4 on v points, v=4..9: [1, 1, 4, 5, 10, 13]
+v=7, action 6+1 (subgroups of orders [4, 24]): 227 invariant labelled FHTs, 171 new classes (2s)
+v=7, action 6+1 (subgroups of orders [4, 24]): 115 invariant labelled FHTs, 0 new classes (3s)
+v=7, action 4+3 (subgroups of orders [6, 8]): 230 invariant labelled FHTs, 219 new classes (3s)
+v=7, action 4+2+1 (subgroups of orders [6, 12, 24]): 1397 invariant labelled FHTs, 1228 new classes (4s)
+v=7, action 4+1+1+1 (subgroups of orders [6, 24, 24, 24]): 11747 invariant labelled FHTs, 1309 new classes (10s)
+v=7: 2927 classes with Aut containing S4; |Aut| distribution: {24: 1343, 48: 1227, 120: 93, 144: 143, 168: 5, 240: 90, 720: 20, 5040: 6}
+v=7: Aut = S4: 1343 ({'6+1': 51, '4+3': 76, '4+1+1+1': 1216}), of which sgn_V != 1: 1216; |Aut| = 48: 1227; |Aut| = 144: 143; |Aut| > 1200: 6 (85s)
+faithful actions of S4 on v points, v=4..9: [1, 1, 4, 5, 10, 13]
+v=4, action 4 (subgroups of orders [6]): 3 invariant labelled FHTs, 3 new classes (0s)
+v=4: 3 classes with Aut containing S4; |Aut| distribution: {24: 3}
+v=4: Aut = S4: 3 ({'4': 3}), of which sgn_V != 1: 3; |Aut| = 48: 0; |Aut| = 144: 0; |Aut| > 1200: 0 (0s)
+v=5, action 4+1 (subgroups of orders [6, 24]): 13 invariant labelled FHTs, 13 new classes (0s)
+v=5: 13 classes with Aut containing S4; |Aut| distribution: {24: 9, 120: 4}
+v=5: Aut = S4: 9 ({'4+1': 9}), of which sgn_V != 1: 9; |Aut| = 48: 0; |Aut| = 144: 0; |Aut| > 1200: 0 (0s)
+v=6, action 6 (subgroups of orders [4]): 22 invariant labelled FHTs, 18 new classes (0s)
+v=6, action 6 (subgroups of orders [4]): 14 invariant labelled FHTs, 0 new classes (0s)
+v=6, action 4+2 (subgroups of orders [6, 12]): 62 invariant labelled FHTs, 57 new classes (0s)
+v=6, action 4+1+1 (subgroups of orders [6, 24, 24]): 184 invariant labelled FHTs, 61 new classes (0s)
+v=6: 136 classes with Aut containing S4; |Aut| distribution: {24: 51, 48: 66, 120: 14, 720: 5}
+v=6: Aut = S4: 51 ({'6': 4, '4+1+1': 47}), of which sgn_V != 1: 47; |Aut| = 48: 66; |Aut| = 144: 0; |Aut| > 1200: 0 (1s)

@@ -1,0 +1,16 @@
+action 0: 8 (stabilizers of orders 3): done earlier (census_v8_a0.json)
+action 1: 6+2 (stabilizers of orders 4,12): done earlier (census_v8_a1.json)
+action 2: 6+1+1 (stabilizers of orders 4,24,24): done earlier (census_v8_a2.json)
+action 3: 6+2 (stabilizers of orders 4,12): done earlier (census_v8_a3.json)
+action 4: 6+1+1 (stabilizers of orders 4,24,24): done earlier (census_v8_a4.json)
+action 5: 4+4 (stabilizers of orders 6,6): done earlier (census_v8_a5.json)
+action 6: 4+3+1 (stabilizers of orders 6,8,24): done earlier (census_v8_a6.json)
+action 7: 4+2+2 (stabilizers of orders 6,12,12): done earlier (census_v8_a7.json)
+action 8: 4+2+1+1 (stabilizers of orders 6,12,24,24): done earlier (census_v8_a8.json)
+v=8: actions processed [0, 1, 2, 3, 4, 5, 6, 7, 8] of 10; 182309 classes with Aut containing S4
+  |Aut| distribution: {24: 10618, 48: 153781, 96: 8840, 120: 16, 144: 5236, 168: 48, 192: 531, 240: 2485, 336: 2, 384: 24, 576: 133, 720: 405, 1152: 22, 1344: 2, 1440: 132, 5040: 27, 40320: 7}
+  Aut = S4: 10618, by action: 8 (stabilizers of orders 3): 26; 6+2 (stabilizers of orders 4,12): 88; 6+1+1 (stabilizers of orders 4,24,24): 2573; 6+2 (stabilizers of orders 4,12): 20; 4+4 (stabilizers of orders 6,6): 902; 4+3+1 (stabilizers of orders 6,8,24): 7009; |Aut| = 48: 153781; |Aut| = 144: 5236 (0s)
+action 0: 8+1 (stabilizers of orders 3,24): done earlier (census_v9_a0.json)
+v=9: actions processed [0] of 13; 11421 classes with Aut containing S4
+  |Aut| distribution: {24: 3104, 48: 6935, 96: 20, 168: 3, 192: 485, 336: 20, 384: 397, 1152: 394, 1344: 20, 40320: 35, 362880: 8}
+  Aut = S4: 3104, by action: 8+1 (stabilizers of orders 3,24): 3104; |Aut| = 48: 6935; |Aut| = 144: 0 (0s)
